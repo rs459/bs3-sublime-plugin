@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 .alert.alert-danger
-  button.close(type='button', data-dismiss='alert', aria-hidden='true') ×
-  strong ${1:Title!}
-  | ${2:Alert body ...}
+	button.close(type='button', data-dismiss='alert', aria-hidden='true') ×
+	strong ${1:Title!}
+	| ${2: Alert body ...}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-alert:danger</tabTrigger>

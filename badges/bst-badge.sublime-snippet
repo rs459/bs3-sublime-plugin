@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 span.badge ${1:Badge}
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-badge</tabTrigger>

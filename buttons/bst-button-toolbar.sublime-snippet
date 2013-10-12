@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 .btn-toolbar
-  .btn-group
-  .btn-group
-  .btn-group
+	.btn-group
+	.btn-group
+	.btn-group
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bst-toolbar</tabTrigger>

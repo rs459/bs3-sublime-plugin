@@ -1,13 +1,12 @@
 <snippet>
     <content><![CDATA[
 form(action='${1}', method='${2:POST}', role='form')
-  legend ${3:Form title}
-  .form-group
-    label(for='') ${4:label}
-    input.form-control(type='text', placeholder='Input field')
-  | ${4}
-  button.btn.btn-primary(type='submit') ${5:Submit} 
-${6}
+	legend ${3:Form title}
+	.form-group
+		label(for='') ${4:label}
+		input.form-control(type='text', placeholder='Input field')${5}
+	button.btn.btn-primary(type='submit') ${6:Submit} 
+	${7}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bst-form</tabTrigger>

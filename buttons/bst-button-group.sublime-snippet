@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 .btn-group
-  button${1:(type="${2:button}")}.btn.btn-default Left
-  button${1:(type="${2:button}")}.btn.btn-default Middle
-  button${1:(type="${2:button}")}.btn.btn-default Right
+	button${1:(type="${2:button}")}.btn.btn-default Left
+	button${1:(type="${2:button}")}.btn.btn-default Middle
+	button${1:(type="${2:button}")}.btn.btn-default Right
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bst-group</tabTrigger>

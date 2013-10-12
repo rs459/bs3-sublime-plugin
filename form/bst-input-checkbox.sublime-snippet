@@ -1,9 +1,8 @@
 <snippet>
 	<content><![CDATA[
 .checkbox
-  label
-    input(type='checkbox', value='${1}')
-    | ${2:Checkbox}
+	label
+	input(type='checkbox', value='${1}') ${2:Checkbox}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-input:checkbox</tabTrigger>
