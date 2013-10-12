@@ -6,7 +6,7 @@ link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/boots
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bs3-cdn:css</tabTrigger>
+    <tabTrigger>bst-cdn:css</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.html</scope> -->
 </snippet>

@@ -5,7 +5,7 @@ ol.breadcrumb
   li.active ${3:Current}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>bs3-breadcrumbs</tabTrigger>
+	<tabTrigger>bst-breadcrumbs</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 		<scope>source.jade</scope>
 </snippet>

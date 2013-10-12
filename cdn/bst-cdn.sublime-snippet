@@ -7,7 +7,7 @@ script(src='//code.jquery.com/jquery.js')
 script(src='//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js')
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bs3-cdn</tabTrigger>
+    <tabTrigger>bst-cdn</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.html</scope> -->
 </snippet>
