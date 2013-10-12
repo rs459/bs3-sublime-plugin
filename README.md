@@ -1,12 +1,11 @@
-Twitter Bootstrap 3 - Sublime Plugin
+Twitter Bootstrap 3 for Jade - Sublime Plugin
 ==================
 
+## Work in progress
+
+## this plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin](https://github.com/JasonMortonNZ/bs3-sublime-plugin/) by [@JasonMortonNZ on Twitter](https://twitter.com/jasonmortonnz)
+
 A sublime plugin complete with Twitter Bootstrap 3 snippets
-
-Feel free to let me know what else you want added via:
-
-- Twitter [@JasonMortonNZ](https://twitter.com/jasonmortonnz)
-- [Issues](https://github.com/JasonMortonNZ/bs3-sublime-plugin/issues)
 
 
 ## What's included - contents
