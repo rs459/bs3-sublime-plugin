@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 .btn-group-vertical
-	button${1:(type="${2:button}")}.btn.btn-default Top
-    button${1:(type="${2:button}")}.btn.btn-default Middle
-    button${1:(type="${2:button}")}.btn.btn-default Bottom
+  button${1:(type="${2:button}")}.btn.btn-default Top
+  button${1:(type="${2:button}")}.btn.btn-default Middle
+  button${1:(type="${2:button}")}.btn.btn-default Bottom
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bs3-group:vertical</tabTrigger>
