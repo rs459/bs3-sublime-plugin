@@ -3,7 +3,7 @@ Twitter Bootstrap 3 Jade
 Sublime Text Plugin
 ==================
 
-### Work in progress - feel free to contribute
+### Feel free to contribute
 - [@rs459 on Twitter](https://twitter.com/rs459)
 - [Opening an issue, contributing, proposing enhancement](https://github.com/rs459/bs3-jade-sublime-plugin/issues)
 
