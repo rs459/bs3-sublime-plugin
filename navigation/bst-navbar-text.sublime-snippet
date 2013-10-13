@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<p class="navbar-text">${1:Navbar text}</p>
+p.navbar-text ${1:Navbar text}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-navbar:text</tabTrigger>

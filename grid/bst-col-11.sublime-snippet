@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
-
-</div>
+.col-xs-11.col-sm-11.col-md-11.col-lg-11
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-col:11</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<img src="${1:#}" ${2:class="img-responsive"} alt="${3:Image}">
+img(${1:data-}src="${2:holder.js/${3:100x200}/${4:#999:#fff}/${5:text:${6:hello world}}}", alt="${7}")${8:.img-responsive}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bst-image</tabTrigger>

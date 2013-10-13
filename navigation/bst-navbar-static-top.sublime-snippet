@@ -1,16 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-	<a class="navbar-brand" href="${1:#}">${2:Title}</a>
-	<ul class="nav navbar-nav">
-		<li class="active">
-			<a href="#">${3:Home}</a>
-		</li>
-		<li>
-			<a href="#">${4:Link}</a>
-		</li>
-	</ul>
-</nav>
+nav(role="navigation").navbar.navbar-default.navbar-static-top
+	a(href="${1:#}").navbar-brand ${2:Title}
+	ul.nav.navbar-nav
+		li.active
+			a(href="#") ${3:Home}
+		li
+			a(href="#") ${4:Link}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-navbar:static-top</tabTrigger>

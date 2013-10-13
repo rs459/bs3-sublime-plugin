@@ -1,8 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<p class="navbar-text pull-${1:right}">
-	<a href="${2:#}" class="navbar-link">${3:Links}</a>
-</p>
+p.navbar-text.pull-${1:right} 
+	a(href="${2:#}").navbar-link ${3:Links}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->

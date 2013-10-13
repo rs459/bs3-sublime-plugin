@@ -1,9 +1,16 @@
 <snippet>
 	<content><![CDATA[
-input(type="number", name="${1}", id="${1}"${2:, value="${3}"}${4:, min="${5}"}${6:, max="${7}"}${8:, step="${9}"}${10:, required="required"}${11:, title="${12}"}).control-label
+ul.pagination.pagination-lg
+	li: a(href="#") &laquo;
+	li: a(href="#") 1
+	li: a(href="#") 2
+	li: a(href="#") 3
+	li: a(href="#") 4
+	li: a(href="#") 5
+	li: a(href="#") &raquo;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>bst-input:number</tabTrigger>
+	<tabTrigger>bst-pagination:lg</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 		<scope>source.jade</scope>
 </snippet>

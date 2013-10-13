@@ -1,13 +1,12 @@
 <snippet>
-    <content><![CDATA[
-<ul class="list-group">
-    <li class="list-group-item">Item 1</li>
-    <li class="list-group-item">Item 2</li>
-    <li class="list-group-item">Item 3</li>
-</ul>
+	<content><![CDATA[
+ul.list-group 
+	li.list-group-item Item 1
+	li.list-group-item Item 2
+	li.list-group-item Item 3
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bst-list-group</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    	<scope>source.jade</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bst-list-group</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<scope>source.jade</scope>
 </snippet>

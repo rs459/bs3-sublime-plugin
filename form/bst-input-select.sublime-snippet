@@ -1,8 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<select name="${1}" id="input${1/(\w+)/\u\1/g}" class="form-control">
-	<option value="">${2:-- Select One --}</option>
-</select>
+select(name="${1}", id="${1}").form-control ${2}
+			option(value="") ${3:-- Select One --}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-input:select</tabTrigger>

@@ -1,9 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<ul class="pager">
-    <li class="previous"><a href="#">&larr; Older</a></li>
-    <li class="next"><a href="#">Newer &rarr;</a></li>
-</ul>
+ul.pager
+	li.previous: a(href="#") &larr; Older
+	li.next: a(href="#") Newer &rarr;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-pager:aligned</tabTrigger>

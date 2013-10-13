@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<div class="container">
-
-</div>
+.container
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-container</tabTrigger>

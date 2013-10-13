@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<span class="label label-info">${1:Label}</span>
+span.label.label-info ${1:Label}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-label:info</tabTrigger>

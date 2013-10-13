@@ -1,17 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<table class="table table-condensed ${1:table-hover}">
-	<thead>
-		<tr>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
+table.table.table-condensed${1:.table-hover}
+	thead
+		tr
+			th
+	tbody
+		tr
+			td
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-table:condensed</tabTrigger>

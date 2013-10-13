@@ -1,16 +1,13 @@
 <snippet>
-    <content><![CDATA[
-<div class="panel panel-${1:info}">
-      <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
-      </div>
-      <div class="panel-body">
-            Panel content
-      </div>
-</div>
+		<content><![CDATA[
+.panel.panel-${1:info} 
+	.panel-heading 
+		h3.panel-title Panel title
+	.panel-body 
+		Panel content
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bst-panel:info</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    	<scope>source.jade</scope>
+		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+		<tabTrigger>bst-panel:info</tabTrigger>
+		<!-- Optional: Set a scope to limit where the snippet will trigger -->
+			<scope>source.jade</scope>
 </snippet>

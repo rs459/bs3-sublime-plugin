@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<button type="button" class="btn btn-${1:default} navbar-btn">{2:Button}</button>
+button(type="button").btn.btn-${1:default}.navbar-btn ${2:Button}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-navbar:button</tabTrigger>

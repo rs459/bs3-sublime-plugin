@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<a class="navbar-brand" href="${1:/}">${2:Title}</a>
+a(href="${1:/}").navbar-brand ${2:Brand}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-navbar:brand</tabTrigger>

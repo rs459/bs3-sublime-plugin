@@ -1,16 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<nav class="navbar navbar-inverse">
-	<a class="navbar-brand" href="#">${1:Title}</a>
-	<ul class="nav navbar-nav">
-		<li class="active">
-			<a href="#">${2:Home}</a>
-		</li>
-		<li>
-			<a href="#">${3:Link}</a>
-		</li>
-	</ul>
-</nav>
+nav.navbar.navbar-inverse 
+	a(href="#").navbar-brand ${1:Title}
+	ul.nav.navbar-nav 
+		li.active 
+			a(href="#") ${2:Home}
+		li
+			a(href="#") ${3:Link}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-navbar:inverse</tabTrigger>
