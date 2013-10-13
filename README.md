@@ -11,9 +11,10 @@ Sublime Text Plugin
 - Converting all snippet in jade language.
 - Renaming bs3 prefix with bst (more simple and avoiding conflict with "bs3 plugin" not scoped)
 - Removing unnecessary template (.row, .container)
+- Make template of [example](http://getbootstrap.com/getting-started/#examples) starter page.
+- Use of CDN for all assets.
 
 #### TODO
-- Make template of [example](http://getbootstrap.com/getting-started/#examples) starter page.
 - Improve cursor positioning.
 - Improve use of [holder.js](http://imsky.github.io/holder/)
 - Testing ?
