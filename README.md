@@ -1,9 +1,27 @@
-Twitter Bootstrap 3 for Jade - Sublime Plugin
+Twitter Bootstrap 3 Jade
+==================
+Sublime Text Plugin
 ==================
 
-## Work in progress
+### Work in progress - feel free to contribute
+- [@rs459 on Twitter](https://twitter.com/rs459)
+- [Opening an issue, contributing, proposing enhancement](https://github.com/rs459/bs3-jade-sublime-plugin/issues)
 
-## this plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin](https://github.com/JasonMortonNZ/bs3-sublime-plugin/) by [@JasonMortonNZ on Twitter](https://twitter.com/jasonmortonnz)
+#### Done
+- Converting all snippet in jade language.
+- Renaming bs3 prefix with bst (more simple and avoiding conflict with "bs3 plugin" not scoped)
+- Removing unnecessary template (.row, .container)
+
+#### TODO
+- Make template of [example](http://getbootstrap.com/getting-started/#examples) starter page.
+- Improve cursor positioning.
+- Improve use of (holder.js)[http://imsky.github.io/holder/]
+- Testing ?
+- Snippet for all class name of BS3 ?
+- License ?
+- Publish the plugin to sublime text plugin directory.
+
+#### This plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin](https://github.com/JasonMortonNZ/bs3-sublime-plugin/) by [@JasonMortonNZ on Twitter](https://twitter.com/jasonmortonnz)
 
 A sublime plugin complete with Twitter Bootstrap 3 snippets
 
