@@ -1,9 +1,9 @@
 <snippet>
 		<content><![CDATA[
-.panel.panel-default 
-	.panel-body 
-		Panel content    
-	.panel-footer 
+.panel.panel-default
+	.panel-body
+		Panel content
+	.panel-footer
 		Panel footer
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

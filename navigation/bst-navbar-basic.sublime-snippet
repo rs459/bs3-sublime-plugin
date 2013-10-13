@@ -4,7 +4,7 @@ div.navbar
 	a(href="#").navbar-brand ${1:Title}
 	ul.nav.navbar-nav 
 		li.active 
-			a(href="#") ${2:Home}		
+			a(href="#") ${2:Home}
 		li
 			a(href="#") ${3:Link}
 ]]></content>

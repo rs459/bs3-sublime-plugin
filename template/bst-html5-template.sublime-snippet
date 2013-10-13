@@ -1,7 +1,7 @@
 <snippet>
 		<content><![CDATA[
 !!!5
-|<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->	
+|<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
 |<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 head
 	//- TODO: Check if it's the good charset

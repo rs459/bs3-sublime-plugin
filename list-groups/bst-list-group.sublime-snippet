@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ul.list-group 
+ul.list-group
 	li.list-group-item Item 1
 	li.list-group-item Item 2
 	li.list-group-item Item 3

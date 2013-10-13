@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-form.navbar-form.pull-${1:right} 
-	input(type="text", style="width: 200px;") 
+form.navbar-form.pull-${1:right}
+	input(type="text", style="width: 200px;")
 	button(type="submit").btn.btn-${2:default} ${3:Submit}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

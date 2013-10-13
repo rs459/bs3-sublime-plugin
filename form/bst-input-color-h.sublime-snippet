@@ -3,7 +3,7 @@
 .form-group
 	label(for="${1}").col-${2:sm-2}.control-label ${3}
 	.col-${4:sm-10}
-		input(type="color", name="${1}", id="${1}" ${5:, value="${6}"}${7:, title="${8}"}${9:, required="required"}).form-control   
+		input(type="color", name="${1}", id="${1}" ${5:, value="${6}"}${7:, title="${8}"}${9:, required="required"}).form-control
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-input:color:h</tabTrigger>

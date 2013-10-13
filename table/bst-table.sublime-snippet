@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-table.table${1:.table-hover} 
+table.table${1:.table-hover}
 	thead
 		tr
 			th

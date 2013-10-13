@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-table.table.table-striped${1:.table-hover} 
+table.table.table-striped${1:.table-hover}
 	thead
 		tr
-			th	
+			th
 	tbody
 		tr
 			td

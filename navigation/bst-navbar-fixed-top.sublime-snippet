@@ -2,9 +2,9 @@
 	<content><![CDATA[
 nav(role="navigation").navbar.navbar-default.navbar-fixed-top
 	a(href="${1:/}").navbar-brand ${2:Title}
-	ul.nav.navbar-nav 
-		li.active 
-			a(href="#") ${3:Home}		
+	ul.nav.navbar-nav
+		li.active
+			a(href="#") ${3:Home}
 		li
 			a(href="#") ${4:Link}
 ]]></content>
