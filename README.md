@@ -15,7 +15,7 @@ Sublime Text Plugin
 #### TODO
 - Make template of [example](http://getbootstrap.com/getting-started/#examples) starter page.
 - Improve cursor positioning.
-- Improve use of (holder.js)[http://imsky.github.io/holder/]
+- Improve use of [holder.js](http://imsky.github.io/holder/)
 - Testing ?
 - Snippet for all class name of BS3 ?
 - License ?
