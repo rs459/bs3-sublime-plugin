@@ -2,10 +2,10 @@
 	<content><![CDATA[
 div.media 
 	a(href="${1:#}").pull-left 
-		img(src="${2:#}", alt="${3}").media-object   
+		img(${2:data-}src="${3:holder.js/${4:64x64}}", alt="${5}").media-object   
 	div.media-body 
-		h4.media-heading ${4:Media heading}
-		p ${5:Text goes here...}
+		h4.media-heading ${6:Media heading}
+		p ${7:Text goes here...}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-media-object</tabTrigger>
