@@ -12,7 +12,7 @@ Sublime Text Plugin
 - Automated Testing ?
 - Snippet for all class name of BS3 ?
 
-#### This plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin](https://github.com/JasonMortonNZ/bs3-sublime-plugin/) by [@JasonMortonNZ on Twitter](https://twitter.com/jasonmortonnz)
+#### This plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin (for HTML)](https://github.com/JasonMortonNZ/bs3-sublime-plugin/) by [@JasonMortonNZ on Twitter](https://twitter.com/jasonmortonnz)
 
 A sublime plugin complete with Twitter Bootstrap 3 snippets
 
