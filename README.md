@@ -7,20 +7,10 @@ Sublime Text Plugin
 - [@rs459 on Twitter](https://twitter.com/rs459)
 - [Opening an issue, contributing, proposing enhancement](https://github.com/rs459/bs3-jade-sublime-plugin/issues)
 
-#### Done
-- Converting all snippet in jade language.
-- Renaming bs3 prefix with bst (more simple and avoiding conflict with "bs3 plugin" not scoped)
-- Removing unnecessary template (.row, .container)
-- Make template of [example](http://getbootstrap.com/getting-started/#examples) starter page.
-- Use of CDN for all assets.
-
 #### TODO
 - Improve cursor positioning.
-- Improve use of [holder.js](http://imsky.github.io/holder/)
-- Testing ?
+- Automated Testing ?
 - Snippet for all class name of BS3 ?
-- License ?
-- Publish the plugin to sublime text plugin directory.
 
 #### This plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin](https://github.com/JasonMortonNZ/bs3-sublime-plugin/) by [@JasonMortonNZ on Twitter](https://twitter.com/jasonmortonnz)
 
@@ -149,16 +139,16 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 
 **An example:**
 - bst-button:success
-- bst-large-button:disabled
+- bst-lg-button:disabled
 - bst-block-button:warning
 
 | Component                		 | Snippet code                   | Options |
 |------------------------------- | :----------------------------: | :-----:	|
 | Button		 				 | bst-button					  |  *		|
 | Block Button	 				 | bst-block-button				  |  *		|
-| Mini Button		 			 | bst-mini-button				  |	 *		|
-| Small Button		 			 | bst-small-button				  |	 *		|
-| Large Button		 			 | bst-large-button				  |	 *		|
+| Mini Button		 			 | bst-xs-button				  |	 *		|
+| Small Button		 			 | bst-sm-button				  |	 *		|
+| Large Button		 			 | bst-lg-button				  |	 *		|
 | Button		 				 | bst-button					  |	 *		|
 
 ### Grid
@@ -172,8 +162,6 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 | Component                		 | Snippet code                   | Options |
 |------------------------------- | :----------------------------: | :-----:	|
 | Column		 				 | bst-col						  | :1-12	|
-| Row			 				 | bst-row						  |  		|
-| Container		 				 | bst-container				  |			|
 
 ### Icons
 
@@ -255,11 +243,6 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 |------------------------------- | :----------------------------: |
 | Media Object                   | bst-media-object               |
 
-### Clearfix
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Clearfix                       | bst-clearfix                   |
 
 ### License
 
