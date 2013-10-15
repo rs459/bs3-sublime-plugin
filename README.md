@@ -260,3 +260,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 | Component                      | Snippet code                   |
 |------------------------------- | :----------------------------: |
 | Clearfix                       | bst-clearfix                   |
+
+### License
+
+Twitter Bootstrap 3 Jade - Sublime Text Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
