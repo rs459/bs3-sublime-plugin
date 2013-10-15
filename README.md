@@ -50,9 +50,26 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 
 ### Templates
 
-| Component                      | Snippet code                   |
-|------------------------------- | :-----------------------------:|
-| HTML5 Template Layout          | bst-template:html5             |
+| Component                                                                        | Snippet code                   |
+|--------------------------------------------------------------------------------- | -----------------------------: |
+| HTML5 Template Layout                                                            | bst-template:html5             |
+| H5BP layout Template                                                             | bst-h5bp-layout-jade           |
+| H5BP index Template                                                              | bst-h5bo-index-jade            |
+| [BS3 carousel](http://getbootstrap.com/examples/)                                | bst-tpl-carousel               |
+| [BS3 grid](http://getbootstrap.com/examples/grid/)                               | bst-tpl-grid                   |
+| [BS3 jumbotron narrow](http://getbootstrap.com/examples/jumbotron-narrow/)       | bst-tpl-jumbotron-narrow       |
+| [BS3 jumbotron](http://getbootstrap.com/examples/jumbotron/)                     | bst-tpl-jumbotron              |
+| [BS3 justified nav](http://getbootstrap.com/examples/justified-nav)              | bst-tpl-justified-nav          |
+| [BS3 navbar fixed top](http://getbootstrap.com/examples/navbar-fixed-top)        | bst-tpl-navbar-fixed-top       |
+| [BS3 navbar static top](http://getbootstrap.com/examples/navbar-static-top)      | bst-tpl-navbar-static-top      |     
+| [BS3 navbar](http://getbootstrap.com/examples/navbar)                            | bst-tpl-navbar                 |
+| [BS3 non responsive](http://getbootstrap.com/examples/non-responsive)            | bst-tpl-non-responsive         |
+| [BS3 offcanvas](http://getbootstrap.com/examples/offcanvas/)                     | bst-tpl-offcanvas              |
+| [BS3 signin](http://getbootstrap.com/examples/signin/)                           | bst-tpl-starter-signin         |
+| [BS3 signin](http://getbootstrap.com/examples/starter-template/)                 | bst-tpl-starter-template       |
+| [BS3 sticky footer navbar](http://getbootstrap.com/examples/sticky-footer-navbar)| bst-tpl-sticky-foote-navbar    |
+| [BS3 sticky footer](http://getbootstrap.com/examples/sticky-footer)              | bst-tpl-sticky-footer          |
+| [BS3 theme](http://getbootstrap.com/examples/theme)                              | bst-tpl-theme                  |
 
 ### Forms
 
