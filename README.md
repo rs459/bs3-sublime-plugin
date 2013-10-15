@@ -51,7 +51,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Templates
 
 | Component                                                                        | Snippet code                   |
-|--------------------------------------------------------------------------------- | -----------------------------: |
+|--------------------------------------------------------------------------------- | -----------------------------  |
 | HTML5 Template Layout                                                            | bst-template:html5             |
 | H5BP layout Template                                                             | bst-h5bp-layout-jade           |
 | H5BP index Template                                                              | bst-h5bo-index-jade            |
@@ -74,7 +74,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Forms
 
 | Component       				 | Snippet code        			  |
-|------------------------------- | :-----------------------------:|
+|------------------------------- | -----------------------------  |
 | Form            				 | bst-form            			  |
 | Inline Form     				 | bst-form:inline     			  |
 | Horizontal Form 				 | bst-form:horizontal 			  |
@@ -82,7 +82,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Tables
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ----------------------------   |
 | Table                    		 | bst-table                      |
 | Bordered Table           		 | bst-table:bordered             |
 | Condensed Table          		 | bst-table:condensed            |
@@ -97,7 +97,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 
 
 | Component                		 | Snippet code                   | Options |
-|------------------------------- | :----------------------------: | :-----:	|
+|------------------------------- | ------------------------------ | :-----:	|
 | Label		 					 | bst-input:label   			  |    		|
 | Text Input               		 | bst-input:text 				  | :h 		|
 | Email Input 					 | bst-input:email   			  | :h 		|
@@ -121,7 +121,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Alerts
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Alert Box (Default)			 | bst-alert 					  |
 | Danger Alert Box				 | bst-alert:danger 			  |
 | Info Alert Box				 | bst-alert:info				  |
@@ -134,13 +134,13 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Badges
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Badge (Default) 				 | bst-badge 					  |
 
 ### Breadcrumbs
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Breadcrumbs	 				 | bst-breadcrumbs				  |
 
 ### Buttons
@@ -160,7 +160,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 - bst-block-button:warning
 
 | Component                		 | Snippet code                   | Options |
-|------------------------------- | :----------------------------: | :-----:	|
+|------------------------------- | ------------------------------ | :-----:	|
 | Button		 				 | bst-button					  |  *		|
 | Block Button	 				 | bst-block-button				  |  *		|
 | Mini Button		 			 | bst-xs-button				  |	 *		|
@@ -177,27 +177,27 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 - bst-col:12
 
 | Component                		 | Snippet code                   | Options |
-|------------------------------- | :----------------------------: | :-----:	|
+|------------------------------- | ------------------------------ | :-----:	|
 | Column		 				 | bst-col						  | :1-12	|
 
 ### Icons
 
 | Component                      | Snippet code                   |
-|------------------------------- | :-----------------------------:|
+|------------------------------- | ------------------------------ |
 | Glyphicon		                 | bst-icon:glyphicon             |
 | Icon (Font Awesome)		     | bst-icon                       |
 
 ### Images
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Thumbnail	 					 | bst-thumbnail 				  |
 | Thumbnail with content		 | bst-thumbnail:content		  |
 
 ### Labels
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Label		 					 | bst-label 	 				  |
 | Danger Label					 | bst-label:danger				  |
 | Info Label					 | bst-label:info 				  |
@@ -207,7 +207,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Pagination
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Pager		 					 | bst-pager	 				  |
 | Aligned Pager             	 | bst-pager:aligned 			  |
 | Pagination					 | bst-pagination				  |
@@ -217,7 +217,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Navigation
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Navbar (basic navbar)			 | bst-navbar	 				  |
 | Navbar Brand Element			 | bst-navbar:brand				  |
 | Navbar Button					 | bst-navbar:button			  |
@@ -233,13 +233,13 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Jumbotron
 
 | Component                		 | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Jumbotron (ex Hero Unit)		 | bst-jumbotron 				  |
 
 ### Panels
 
 | Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Panel                          | bst-panel                      |
 | Panel (contextual)             | bst-panel:{warning,success,info,danger,primary}                  |
 | Panel (with heading)           | bst-panel:heading              |
@@ -248,7 +248,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### List-groups
 
 | Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | List group                     | bst-list-group                 |
 | List group (with badges)       | bst-list-group:badges          |
 | List group (linked list)       | bst-list-group:linked          |
@@ -257,7 +257,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 ### Media Objects
 
 | Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
+|------------------------------- | ------------------------------ |
 | Media Object                   | bst-media-object               |
 
 
