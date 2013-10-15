@@ -5,7 +5,7 @@ form.form-horizontal(action='${1}', method='${2:POST}', role='form')
 		legend ${3:Form title}
   	| ${4}
 	.form-group
-		.col-sm-10.col-offset-2
+		.col-sm-10.col-sm-offset-2
 			button.btn.btn-primary(type='submit') ${5:Submit}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
