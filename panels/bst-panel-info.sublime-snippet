@@ -4,7 +4,7 @@
 	.panel-heading
 		h3.panel-title Panel title
 	.panel-body
-		Panel content
+		| Panel content
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 		<tabTrigger>bst-panel:info</tabTrigger>

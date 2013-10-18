@@ -2,9 +2,9 @@
 		<content><![CDATA[
 .panel.panel-default
 	.panel-body
-		Panel content
+		| Panel content
 	.panel-footer
-		Panel footer
+		| Panel footer
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 		<tabTrigger>bst-panel:footer</tabTrigger>
