@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 .alert.alert-danger
-	button.close(type='button', data-dismiss='alert', aria-hidden='true') ×
+	button.close(type='button', data-dismiss='alert', aria-hidden='true') &times;
 	strong ${1:Title!}
 	| ${2: Alert body ...}
 ]]></content>
