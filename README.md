@@ -7,12 +7,7 @@ Sublime Text Plugin
 - [@rs459 on Twitter](https://twitter.com/rs459)
 - [Opening an issue, contributing, proposing enhancement](https://github.com/rs459/bs3-jade-sublime-plugin/issues)
 
-#### TODO
-- Improve cursor positioning.
-- Automated Testing ?
-- Snippet for all class name of BS3 ?
-
-#### This plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin (for HTML)](https://github.com/JasonMortonNZ/bs3-sublime-plugin/) by [@JasonMortonNZ on Twitter](https://twitter.com/jasonmortonnz)
+#### This plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin (for HTML)](https://github.com/JasonMortonNZ/bs3-sublime-plugin/)
 
 A sublime plugin complete with Twitter Bootstrap 3 snippets
 
@@ -37,7 +32,6 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 - [List Groups](https://github.com/rs459/bootstrap3-jade-sublime-plugin#list-groups)
 - [Media Objects](https://github.com/rs459/bootstrap3-jade-sublime-plugin#media-objects)
 - [Icons](https://github.com/rs459/bootstrap3-jade-sublime-plugin#icons)
-- [Clearfix](https://github.com/rs459/bootstrap3-jade-sublime-plugin#clearfix)
 
 
 ### CDN
@@ -61,12 +55,12 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 | [BS3 jumbotron](http://getbootstrap.com/examples/jumbotron/)                     | bst-tpl-jumbotron              |
 | [BS3 justified nav](http://getbootstrap.com/examples/justified-nav)              | bst-tpl-justified-nav          |
 | [BS3 navbar fixed top](http://getbootstrap.com/examples/navbar-fixed-top)        | bst-tpl-navbar-fixed-top       |
-| [BS3 navbar static top](http://getbootstrap.com/examples/navbar-static-top)      | bst-tpl-navbar-static-top      |     
+| [BS3 navbar static top](http://getbootstrap.com/examples/navbar-static-top)      | bst-tpl-navbar-static-top      |
 | [BS3 navbar](http://getbootstrap.com/examples/navbar)                            | bst-tpl-navbar                 |
 | [BS3 non responsive](http://getbootstrap.com/examples/non-responsive)            | bst-tpl-non-responsive         |
 | [BS3 offcanvas](http://getbootstrap.com/examples/offcanvas/)                     | bst-tpl-offcanvas              |
 | [BS3 signin](http://getbootstrap.com/examples/signin/)                           | bst-tpl-starter-signin         |
-| [BS3 signin](http://getbootstrap.com/examples/starter-template/)                 | bst-tpl-starter-template       |
+| [BS3 starter template](http://getbootstrap.com/examples/starter-template/)       | bst-tpl-starter-template       |
 | [BS3 sticky footer navbar](http://getbootstrap.com/examples/sticky-footer-navbar)| bst-tpl-sticky-foote-navbar    |
 | [BS3 sticky footer](http://getbootstrap.com/examples/sticky-footer)              | bst-tpl-sticky-footer          |
 | [BS3 theme](http://getbootstrap.com/examples/theme)                              | bst-tpl-theme                  |
@@ -126,10 +120,8 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 | Danger Alert Box				 | bst-alert:danger 			  |
 | Info Alert Box				 | bst-alert:info				  |
 | Success Alert Box				 | bst-alert:success			  |
-| Block Alert Box (Default)		 | bst-alert:block				  |
-| Danger Block Alert Box		 | bst-alert:block:danger 		  |
-| Info Block Alert Box			 | bst-alert:block:info 		  |
-| Success Block Alert Box		 | bst-alert:block:success 		  |
+| Warning Alert Box				 | bst-alert:warning			  |
+
 
 ### Badges
 
