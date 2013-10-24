@@ -11,7 +11,6 @@ Sublime Text Plugin
 
 A sublime plugin complete with Twitter Bootstrap 3 snippets
 
-
 ## What's included - contents
 - [CDN](https://github.com/rs459/bootstrap3-jade-sublime-plugin#cdn)
 - [Templates](https://github.com/rs459/bootstrap3-jade-sublime-plugin#templates)
@@ -252,6 +251,13 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 |------------------------------- | ------------------------------ |
 | Media Object                   | bst-media-object               |
 
+### Javascript Component
+
+| Component                      | Snippet code                   |
+|------------------------------- | ------------------------------ |
+| Accordion                      | bst-accordion                  |
+| Carousel                       | bst-carousel                   |
+| Modal                          | bst-modal                      |
 
 ### License
 
