@@ -225,6 +225,12 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 | Panel (with heading)           | bst-panel:heading              |
 | Panel (with footer)            | bst-panel:footer               |
 
+### Progress bar
+
+| Component                      | Snippet code                   |
+|------------------------------- | ------------------------------ |
+| Progress Bar                   | bst-progress                   |
+
 ### Tables
 
 | Component                		 | Snippet code                   |
