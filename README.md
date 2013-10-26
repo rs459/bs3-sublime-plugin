@@ -3,13 +3,15 @@ Twitter Bootstrap 3 Jade
 Sublime Text Plugin
 ==================
 
-### Feel free to contribute
+### Please feel free to contribute
 - [@rs459 on Twitter](https://twitter.com/rs459)
 - [Opening an issue, contributing, proposing enhancement](https://github.com/rs459/bs3-jade-sublime-plugin/issues)
 
 #### This plugin is a fork of [JasonMortonNZ/bs3-sublime-plugin (for HTML)](https://github.com/JasonMortonNZ/bs3-sublime-plugin/)
 
 A sublime plugin complete with Twitter Bootstrap 3 snippets
+
+## Class name completion
 
 ## What's included - contents
 - [Alerts](https://github.com/rs459/bootstrap3-jade-sublime-plugin#alerts)
@@ -31,6 +33,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 - [Panels](https://github.com/rs459/bootstrap3-jade-sublime-plugin#panels)
 - [Tables](https://github.com/rs459/bootstrap3-jade-sublime-plugin#tables)
 - [Templates](https://github.com/rs459/bootstrap3-jade-sublime-plugin#templates)
+- [License](https://github.com/rs459/bootstrap3-jade-sublime-plugin#license)
 
 
 ### Alerts

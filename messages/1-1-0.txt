@@ -1,0 +1,3 @@
+Now available :
+
+- Autocomplete for class name.

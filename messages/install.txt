@@ -19,7 +19,7 @@ Type bst-* inside jade file.
 Follow me on Twitter: @rs459
 ------------------------------
 
-fork and jade conversion of https://github.com/JasonMortonNZ/bs3-sublime-plugin 
+fork and jade conversion of https://github.com/JasonMortonNZ/bs3-sublime-plugin
 
 -----------------------------
 follow him on Twitter: @JasonMortonNZ
