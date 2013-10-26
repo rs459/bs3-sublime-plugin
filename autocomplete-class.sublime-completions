@@ -103,7 +103,7 @@
 		"list-unstyled",
 		"media",
 		"media-body",
-		"media-header"
+		"media-header",
 		"modal-content",
 		"modal-dialog",
 		"nav",
@@ -136,7 +136,7 @@
 		"panel-danger",
 		"panel-footer",
 		"panel-heading",
-		"panel-info"
+		"panel-info",
 		"panel-primary",
 		"panel-success",
 		"panel-title",
@@ -152,7 +152,7 @@
 		"progress-striped",
 		"pull-left",
 		"pull-right",
-		"radio"
+		"radio",
 		"radio-inline",
 		"row",
 		"sr-only",
