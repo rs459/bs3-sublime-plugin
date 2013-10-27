@@ -11,9 +11,21 @@ Text versions 2 & 3.
 Documentation, examples & issue filing can be found here:
 https://github.com/rs459/bootstrap3-jade-sublime-plugin
 
+
+
+
+
 ### How to use ?
 
 Type bst-* inside jade file.
+
+
+
+### Give your feedback on https://github.com/rs459/bootstrap3-jade-sublime-plugin
+
+
+
+
 
 ------------------------------
 Follow me on Twitter: @rs459
