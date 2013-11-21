@@ -6,7 +6,7 @@ block main
     // Wrap all page content here
     #wrap
       // Fixed navbar
-      .navbar.navbar-default.navbar-fixed-top
+      .navbar.navbar-default.navbar-fixed-top(role="navigation")
         .container
           .navbar-header
             button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')

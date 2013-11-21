@@ -133,7 +133,7 @@ block append css
 block main
 	.navbar-wrapper
 	.container
-		.navbar.navbar-inverse.navbar-static-top
+		.navbar.navbar-inverse.navbar-static-top(role="navigation")
 			.container
 				.navbar-header
 					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')

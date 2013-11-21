@@ -14,7 +14,7 @@ append css
 block main
 		.container
 			// Static navbar 
-			.navbar.navbar-default
+			.navbar.navbar-default(role="navigation")
 				.navbar-header
 					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
 						span.icon-bar
