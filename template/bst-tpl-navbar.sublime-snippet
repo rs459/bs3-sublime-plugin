@@ -61,7 +61,7 @@ block main
 				p
 					| This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.
 				p
-					a.btn.btn-lg.btn-primary(href='#{pathToAssets}/components/#navbar') View navbar docs »
+					a.btn.btn-lg.btn-primary(href="http://getbootstrap.com/components/#navbar", role="button") View navbar docs »
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 		<tabTrigger>bst-tpl-navbar</tabTrigger>
