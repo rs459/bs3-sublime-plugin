@@ -11,5 +11,5 @@ form.form-horizontal(action='${1}', method='${2:POST}', role='form')
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bst-form:horizontal</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    	<scope>source.jade</scope>
+    	<scope>entity.name.tag.jade</scope>
 </snippet>
