@@ -5,5 +5,5 @@ input(type="url", name="${1}", id="${1}"${3:, value="${4}"}${5:, required="requi
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-input:url</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-		<scope>source.jade</scope>
+		<scope>entity.name.tag.jade</scope>
 </snippet>
