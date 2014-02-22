@@ -3,7 +3,7 @@
 extend layout
 
 block main
-  
+	
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 		<tabTrigger>bst-h5bp-index-jade</tabTrigger>

@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<snippet>
-	<content><![CDATA[extend layout
+extend layout
 
 block append css
 	style.

@@ -18,9 +18,9 @@ block append css
     .theme-showcase > p > .btn {
       margin: 5px 0;
     }
-    
+
 block main
-  
+
     // Fixed navbar
     .navbar.navbar-inverse.navbar-fixed-top(role="navigation")
       .container
