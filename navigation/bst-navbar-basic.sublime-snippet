@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-div.navbar 
+.navbar 
 	a(href="#").navbar-brand ${1:Title}
 	ul.nav.navbar-nav 
 		li.active 

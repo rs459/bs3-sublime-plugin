@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-div.list-group
+.list-group
 	a(href="#").list-group-item.active
 		h4.list-group-item-heading ${1:List group item heading}
 		p.list-group-item-text ${2:Content goes here}

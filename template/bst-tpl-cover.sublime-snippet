@@ -166,11 +166,11 @@ block append css
     }
 
 block main
-  div.site-wrapper
-    div.site-wrapper-inner
-      div.cover-container
-        div.masthead.clearfix
-          div.inner
+  .site-wrapper
+    .site-wrapper-inner
+      .cover-container
+        .masthead.clearfix
+          .inner
             h3.masthead-brand Cover 
             ul.nav.masthead-nav
               li.active
@@ -179,14 +179,14 @@ block main
                 a(href='#') Features
               li
                 a(href='#') Contact
-        div.inner.cover
+        .inner.cover
           h1.cover-heading Cover your page.
           p.lead
             | Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
           p.lead
             a.btn.btn-lg.btn-default(href='#') Learn more
-        div.mastfoot
-          div.inner
+        .mastfoot
+          .inner
             p
             | Cover template for 
             a(href='http://getbootstrap.com') Bootstrap

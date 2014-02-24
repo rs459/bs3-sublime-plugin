@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-div.list-group
+.list-group
 	a(href="#").list-group-item.active Item 1
 	a(href="#").list-group-item Item 2
 	a(href="#").list-group-item Item 3

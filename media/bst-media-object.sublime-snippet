@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-div.media
+.media
 	a(href="${1:#}").pull-left
 		img(${2:data-}src="${3:holder.js/${4:64x64}}", alt="${5}").media-object
-	div.media-body
+	.media-body
 		h4.media-heading ${6:Media heading}
 		p ${7:Text goes here...}
 ]]></content>
