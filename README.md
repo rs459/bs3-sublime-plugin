@@ -251,7 +251,10 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 | HTML5 Template Layout                                                            | bst-template:html5             |
 | H5BP layout Template                                                             | bst-h5bp-layout-jade           |
 | H5BP index Template                                                              | bst-h5bo-index-jade            |
+| [BS3 blog](http://getbootstrap.com/examples/blog)                                | bst-tpl-blog                   |
 | [BS3 carousel](http://getbootstrap.com/examples/carousel)                        | bst-tpl-carousel               |
+| [BS3 cover](http://getbootstrap.com/examples/cover)                              | bst-tpl-cover                  |
+| [BS3 dashboard](http://getbootstrap.com/examples/dashboard)                      | bst-tpl-dashboard              |
 | [BS3 grid](http://getbootstrap.com/examples/grid/)                               | bst-tpl-grid                   |
 | [BS3 jumbotron narrow](http://getbootstrap.com/examples/jumbotron-narrow/)       | bst-tpl-jumbotron-narrow       |
 | [BS3 jumbotron](http://getbootstrap.com/examples/jumbotron/)                     | bst-tpl-jumbotron              |
