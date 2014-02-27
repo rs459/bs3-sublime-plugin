@@ -11,6 +11,10 @@ Sublime Text Plugin
 
 A sublime plugin complete with Twitter Bootstrap 3 snippets
 
+## Dependency 
+
+- Jade language plugin
+
 ## Class name completion
 
 ## What's included - contents
