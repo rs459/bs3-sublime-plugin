@@ -1,10 +1,591 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Bootstrap 3 Sublime Plugin</title>
-</head>
-<body>
-	<h1 class="text-center">Bootstrap 3 Sublime Plugin</h1>
-</body>
-</html>
+<!DOCTYPE html><!--if IE 8|<html class="no-js lt-ie9">--><!--if gt IE 8|<!--> <html class="no-js"> <!----><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title></title><meta name="description" content=""><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><!--link(rel="stylesheet", href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")--><link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/codemirror.min.css"><style>body {
+ padding: 120px 0;
+}
+
+.example-rendered {
+ padding: 20px 0;
+}
+.cm-s-default .cm-qualifier {
+ color: #0AC43E;
+}
+.cm-s-default .cm-tag {
+ color: #BB6D92;
+}</style><!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --><!--if lt IE 9script(src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.0/html5shiv.js")
+script(src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js")--></head><body><div class="container"><h1>Bootstrap 3 converted to jade (WIP)</h1></div><div class="container"><!--example--><div class="example"><div class="example-rendered"><div class="btn-group"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"></span></button><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-center"></span></button><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-right"></span></button><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-justify"></span></button></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-group
+	button.btn.btn-default(type='button')
+		span.glyphicon.glyphicon-align-left
+	button.btn.btn-default(type='button')
+		span.glyphicon.glyphicon-align-center
+	button.btn.btn-default(type='button')
+		span.glyphicon.glyphicon-align-right
+	button.btn.btn-default(type='button')
+		span.glyphicon.glyphicon-align-justify</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-toolbar"><button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-star"></span>Star</button><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-star"></span>Star</button><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-star"></span>Star</button><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-star"></span>Star</button></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-toolbar
+	button.btn.btn-default.btn-lg(type='button')
+		span.glyphicon.glyphicon-star
+		| Star
+	button.btn.btn-default(type='button')
+		span.glyphicon.glyphicon-star
+		| Star
+	button.btn.btn-default.btn-sm(type='button')
+		span.glyphicon.glyphicon-star
+		| Star
+	button.btn.btn-default.btn-xs(type='button')
+		span.glyphicon.glyphicon-star
+		| Star</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-group"><button type="button" class="btn btn-default">Left</button><button type="button" class="btn btn-default">Middle</button><button type="button" class="btn btn-default">Right</button></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-group
+	button.btn.btn-default(type='button') Left
+	button.btn.btn-default(type='button') Middle
+	button.btn.btn-default(type='button') Right</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-toolbar"><div class="btn-group"><button type="button" class="btn btn-default">1</button><button type="button" class="btn btn-default">2</button><button type="button" class="btn btn-default">3</button><button type="button" class="btn btn-default">4</button></div><div class="btn-group"><button type="button" class="btn btn-default">5</button><button type="button" class="btn btn-default">6</button><button type="button" class="btn btn-default">7</button></div><div class="btn-group"><button type="button" class="btn btn-default">8</button></div></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-toolbar
+	.btn-group
+		button.btn.btn-default(type='button') 1
+		button.btn.btn-default(type='button') 2
+		button.btn.btn-default(type='button') 3
+		button.btn.btn-default(type='button') 4
+	.btn-group
+		button.btn.btn-default(type='button') 5
+		button.btn.btn-default(type='button') 6
+		button.btn.btn-default(type='button') 7
+	.btn-group
+		button.btn.btn-default(type='button') 8</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-toolbar"><div class="btn-group btn-group-lg"><button type="button" class="btn btn-default">Left</button><button type="button" class="btn btn-default">Middle</button><button type="button" class="btn btn-default">Right</button></div></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-toolbar
+	.btn-group.btn-group-lg
+		button.btn.btn-default(type='button') Left
+		button.btn.btn-default(type='button') Middle
+		button.btn.btn-default(type='button') Right</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-toolbar"><div class="btn-group"><button type="button" class="btn btn-default">Left</button><button type="button" class="btn btn-default">Middle</button><button type="button" class="btn btn-default">Right</button></div></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-toolbar
+	.btn-group
+		button.btn.btn-default(type='button') Left
+		button.btn.btn-default(type='button') Middle
+		button.btn.btn-default(type='button') Right</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-toolbar"><div class="btn-group btn-group-sm"><button type="button" class="btn btn-default">Left</button><button type="button" class="btn btn-default">Middle</button><button type="button" class="btn btn-default">Right</button></div></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-toolbar
+	.btn-group.btn-group-sm
+		button.btn.btn-default(type='button') Left
+		button.btn.btn-default(type='button') Middle
+		button.btn.btn-default(type='button') Right</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-toolbar"><div class="btn-group btn-group-xs"><button type="button" class="btn btn-default">Left</button><button type="button" class="btn btn-default">Middle</button><button type="button" class="btn btn-default">Right</button></div></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-toolbar
+	.btn-group.btn-group-xs
+		button.btn.btn-default(type='button') Left
+		button.btn.btn-default(type='button') Middle
+		button.btn.btn-default(type='button') Right</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-group"><button type="button" class="btn btn-default">1</button><button type="button" class="btn btn-default">2</button></div><div class="btn-group"><button id="btnGroupDrop1" type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Dropdown <span class="caret"></span></button><ul role="menu" aria-labelledby="btnGroupDrop1" class="dropdown-menu"><li><a href="#">Dropdown link</a></li><li><a href="#">Dropdown link</a></li></ul></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-group
+	button.btn.btn-default(type='button') 1
+	button.btn.btn-default(type='button') 2
+.btn-group
+	button#btnGroupDrop1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+		| Dropdown 
+		span.caret
+	ul.dropdown-menu(role='menu', aria-labelledby='btnGroupDrop1')
+		li: a(href='#') Dropdown link
+		li: a(href='#') Dropdown link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-group-vertical"><button type="button" class="btn btn-default">Button</button><button type="button" class="btn btn-default">Button</button><div class="btn-group"><button id="btnGroupVerticalDrop1" type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Dropdown <span class="caret"></span></button><ul role="menu" aria-labelledby="btnGroupVerticalDrop1" class="dropdown-menu"><li><a href="#">Dropdown link</a></li><li><a href="#">Dropdown link</a></li></ul></div><button type="button" class="btn btn-default">Button</button><button type="button" class="btn btn-default">Button</button><div class="btn-group"><button id="btnGroupVerticalDrop2" type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Dropdown <span class="caret"></span></button><ul role="menu" aria-labelledby="btnGroupVerticalDrop2" class="dropdown-menu"><li><a href="#">Dropdown link</a></li><li><a href="#">Dropdown link</a></li></ul></div><div class="btn-group"><button id="btnGroupVerticalDrop3" type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Dropdown <span class="caret"></span></button><ul role="menu" aria-labelledby="btnGroupVerticalDrop3" class="dropdown-menu"><li><a href="#">Dropdown link</a></li><li><a href="#">Dropdown link</a></li></ul></div><div class="btn-group"><button id="btnGroupVerticalDrop4" type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Dropdown <span class="caret"></span></button><ul role="menu" aria-labelledby="btnGroupVerticalDrop4" class="dropdown-menu"><li><a href="#">Dropdown link</a></li><li><a href="#">Dropdown link</a></li></ul></div></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-group-vertical
+	button.btn.btn-default(type='button') Button
+	button.btn.btn-default(type='button') Button
+	.btn-group
+		button#btnGroupVerticalDrop1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+			| Dropdown
+			span.caret
+		ul.dropdown-menu(role='menu', aria-labelledby='btnGroupVerticalDrop1')
+			li: a(href='#') Dropdown link
+			li: a(href='#') Dropdown link
+	button.btn.btn-default(type='button') Button
+	button.btn.btn-default(type='button') Button
+	.btn-group
+		button#btnGroupVerticalDrop2.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+			| Dropdown
+			span.caret
+		ul.dropdown-menu(role='menu', aria-labelledby='btnGroupVerticalDrop2')
+			li: a(href='#') Dropdown link
+			li: a(href='#') Dropdown link
+	.btn-group
+		button#btnGroupVerticalDrop3.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+			| Dropdown
+			span.caret
+		ul.dropdown-menu(role='menu', aria-labelledby='btnGroupVerticalDrop3')
+			li: a(href='#') Dropdown link
+			li: a(href='#') Dropdown link
+	.btn-group
+		button#btnGroupVerticalDrop4.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+			| Dropdown
+			span.caret
+		ul.dropdown-menu(role='menu', aria-labelledby='btnGroupVerticalDrop4')
+			li: a(href='#') Dropdown link
+			li: a(href='#') Dropdown link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-group btn-group-justified"><a href="#" class="btn btn-default">Left</a><a href="#" class="btn btn-default">Middle</a><a href="#" class="btn btn-default">Right</a></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-group.btn-group-justified
+	a.btn.btn-default(href='#') Left
+	a.btn.btn-default(href='#') Middle
+	a.btn.btn-default(href='#') Right</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Default <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Primary <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-success dropdown-toggle">Success <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-info dropdown-toggle">Info <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle">Warning <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-danger dropdown-toggle">Danger <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-group
+	button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+		| Default
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown')
+		| Primary
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-success.dropdown-toggle(type='button', data-toggle='dropdown')
+		| Success
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-info.dropdown-toggle(type='button', data-toggle='dropdown')
+		| Info
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-warning.dropdown-toggle(type='button', data-toggle='dropdown')
+		| Warning
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-danger.dropdown-toggle(type='button', data-toggle='dropdown')
+		| Danger
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-group"><button type="button" class="btn btn-default">Default</button><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"><span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" class="btn btn-primary">Primary</button><button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"><span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" class="btn btn-success">Success</button><button type="button" data-toggle="dropdown" class="btn btn-success dropdown-toggle"><span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" class="btn btn-info">Info</button><button type="button" data-toggle="dropdown" class="btn btn-info dropdown-toggle"><span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" class="btn btn-warning">Warning</button><button type="button" data-toggle="dropdown" class="btn btn-warning dropdown-toggle"><span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group"><button type="button" class="btn btn-danger">Danger</button><button type="button" data-toggle="dropdown" class="btn btn-danger dropdown-toggle"><span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-group
+	button.btn.btn-default(type='button') Default
+	button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-primary(type='button') Primary
+	button.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown')
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-success(type='button') Success
+	button.btn.btn-success.dropdown-toggle(type='button', data-toggle='dropdown')
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-info(type='button') Info
+	button.btn.btn-info.dropdown-toggle(type='button', data-toggle='dropdown')
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-warning(type='button') Warning
+	button.btn.btn-warning.dropdown-toggle(type='button', data-toggle='dropdown')
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link
+.btn-group
+	button.btn.btn-danger(type='button') Danger
+	button.btn.btn-danger.dropdown-toggle(type='button', data-toggle='dropdown')
+		span.caret
+	ul.dropdown-menu(role='menu')
+		li: a(href='#') Action
+		li: a(href='#') Another action
+		li: a(href='#') Something else here
+		li.divider
+		li: a(href='#') Separated link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-toolbar"><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default btn-lg dropdown-toggle">Large button <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div></div><br><div class="btn-toolbar"><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default btn-sm dropdown-toggle">Small button <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div></div><br><div class="btn-toolbar"><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default btn-xs dropdown-toggle">Extra small button <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-toolbar
+	.btn-group
+		button.btn.btn-default.btn-lg.dropdown-toggle(type='button', data-toggle='dropdown')
+			| Large button
+			span.caret
+		ul.dropdown-menu(role='menu')
+			li: a(href='#') Action
+			li: a(href='#') Another action
+			li: a(href='#') Something else here
+			li.divider
+			li: a(href='#') Separated link
+br
+.btn-toolbar
+	.btn-group
+		button.btn.btn-default.btn-sm.dropdown-toggle(type='button', data-toggle='dropdown')
+			| Small button
+			span.caret
+		ul.dropdown-menu(role='menu')
+			li: a(href='#') Action
+			li: a(href='#') Another action
+			li: a(href='#') Something else here
+			li.divider
+			li: a(href='#') Separated link
+br
+.btn-toolbar
+	.btn-group
+		button.btn.btn-default.btn-xs.dropdown-toggle(type='button', data-toggle='dropdown')
+			| Extra small button
+			span.caret
+		ul.dropdown-menu(role='menu')
+			li: a(href='#') Action
+			li: a(href='#') Another action
+			li: a(href='#') Something else here
+			li.divider
+			li: a(href='#') Separated link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="btn-toolbar"><div class="btn-group dropup"><button type="button" class="btn btn-default">Dropup</button><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"><span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><div class="btn-group dropup"><button type="button" class="btn btn-primary">Right dropup</button><button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"><span class="caret"></span></button><ul role="menu" class="dropdown-menu pull-right"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div></div></div><div class="example-code"><pre data-lang="jade"><code>.btn-toolbar
+	.btn-group.dropup
+		button.btn.btn-default(type='button') Dropup
+		button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+			span.caret
+		ul.dropdown-menu(role='menu')
+			li: a(href='#') Action
+			li: a(href='#') Another action
+			li: a(href='#') Something else here
+			li.divider
+			li: a(href='#') Separated link
+	.btn-group.dropup
+		button.btn.btn-primary(type='button') Right dropup
+		button.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown')
+			span.caret
+		ul.dropdown-menu.pull-right(role='menu')
+			li: a(href='#') Action
+			li: a(href='#') Another action
+			li: a(href='#') Something else here
+			li.divider
+			li: a(href='#') Separated link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><form role="form"><div class="input-group"><span class="input-group-addon">@</span><input type="text" placeholder="Username" class="form-control"></div><br><div class="input-group"><input type="text" class="form-control"><span class="input-group-addon">.00</span></div><br><div class="input-group"><span class="input-group-addon">$</span><input type="text" class="form-control"><span class="input-group-addon">.00</span></div></form></div><div class="example-code"><pre data-lang="jade"><code>form(role='form')
+	.input-group
+		span.input-group-addon @
+		input.form-control(type='text', placeholder='Username')
+	br
+	.input-group
+		input.form-control(type='text')
+		span.input-group-addon .00
+	br
+	.input-group
+		span.input-group-addon $
+		input.form-control(type='text')
+		span.input-group-addon .00</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><form role="form"><div class="input-group input-group-lg"><span class="input-group-addon">@</span><input type="text" placeholder="Username" class="form-control"></div><br><div class="input-group"><span class="input-group-addon">@</span><input type="text" placeholder="Username" class="form-control"></div><br><div class="input-group input-group-sm"><span class="input-group-addon">@</span><input type="text" placeholder="Username" class="form-control"></div></form></div><div class="example-code"><pre data-lang="jade"><code>form(role='form')
+	.input-group.input-group-lg
+		span.input-group-addon @
+		input.form-control(type='text', placeholder='Username')
+	br
+	.input-group
+		span.input-group-addon @
+		input.form-control(type='text', placeholder='Username')
+	br
+	.input-group.input-group-sm
+		span.input-group-addon @
+		input.form-control(type='text', placeholder='Username')</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><form class="bs-example bs-example-form"><div class="row"><div class="col-lg-6"><div class="input-group"><span class="input-group-addon"><input type="checkbox"></span><input type="text" class="form-control"></div></div><div class="col-lg-6"><div class="input-group"><span class="input-group-addon"><input type="radio"></span><input type="text" class="form-control"></div></div></div></form></div><div class="example-code"><pre data-lang="jade"><code>form.bs-example.bs-example-form
+	.row
+		.col-lg-6
+			.input-group
+				span.input-group-addon
+					input(type='checkbox')
+				input.form-control(type='text')
+		.col-lg-6
+			.input-group
+				span.input-group-addon
+					input(type='radio')
+				input.form-control(type='text')</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><form><div class="row"><div class="col-lg-6"><div class="input-group"><span class="input-group-btn"><button type="button" class="btn btn-default">Go!</button></span><input type="text" class="form-control"></div></div><div class="col-lg-6"><div class="input-group"><input type="text" class="form-control"><span class="input-group-btn"><button type="button" class="btn btn-default">Go!</button></span></div></div></div></form></div><div class="example-code"><pre data-lang="jade"><code>form
+	.row
+		.col-lg-6
+			.input-group
+				span.input-group-btn
+					button.btn.btn-default(type='button') Go!
+				input.form-control(type='text')
+		.col-lg-6
+			.input-group
+				input.form-control(type='text')
+				span.input-group-btn
+					button.btn.btn-default(type='button') Go!</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><form role="form"><div class="row"><div class="col-lg-6"><div class="input-group"><div class="input-group-btn"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Action <span class="caret"></span></button><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div><input type="text" class="form-control"></div></div><div class="col-lg-6"><div class="input-group"><input type="text" class="form-control"><div class="input-group-btn"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Action <span class="caret"></span></button><ul role="menu" class="dropdown-menu pull-right"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></div></div></div></div></form></div><div class="example-code"><pre data-lang="jade"><code>form(role='form')
+	.row
+		.col-lg-6
+			.input-group
+				.input-group-btn
+					button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+						| Action
+						span.caret
+					ul.dropdown-menu(role='menu')
+						li: a(href='#') Action
+						li: a(href='#') Another action
+						li: a(href='#') Something else here
+						li.divider
+						li: a(href='#') Separated link
+				input.form-control(type='text')
+		.col-lg-6
+			.input-group
+				input.form-control(type='text')
+				.input-group-btn
+					button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+						| Action
+						span.caret
+					ul.dropdown-menu.pull-right(role='menu')
+						li: a(href='#') Action
+						li: a(href='#') Another action
+						li: a(href='#') Something else here
+						li.divider
+						li: a(href='#') Separated link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="nav nav-tabs"><li class="active"><a href="#">Home</a></li><li><a href="#">Profile</a></li><li><a href="#">Messages</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.nav.nav-tabs
+	li.active: a(href='#') Home
+	li: a(href='#') Profile
+	li: a(href='#') Messages</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="nav nav-pills"><li class="active"><a href="#">Home</a></li><li><a href="#">Profile</a></li><li><a href="#">Messages</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.nav.nav-pills
+	li.active: a(href='#') Home
+	li: a(href='#') Profile
+	li: a(href='#') Messages</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="nav nav-pills nav-stacked"><li class="active"><a href="#">Home</a></li><li><a href="#">Profile</a></li><li><a href="#">Messages</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.nav.nav-tabs.nav-stacked
+	li.active: a(href='#') Home
+	li: a(href='#') Profile
+	li: a(href='#') Messages</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="nav nav-tabs nav-justified"><li class="active"><a href="#">Home</a></li><li><a href="#">Profile</a></li><li><a href="#">Messages</a></li></ul><br><ul class="nav nav-pills nav-justified"><li class="active"><a href="#">Home</a></li><li><a href="#">Profile</a></li><li><a href="#">Messages</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.nav.nav-tabs.nav-justified
+	li.active: a(href='#') Home
+	li: a(href='#') Profile
+	li: a(href='#') Messages
+br
+ul.nav.nav-pills.nav-justified
+	li.active: a(href='#') Home
+	li: a(href='#') Profile
+	li: a(href='#') Messages</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="nav nav-pills"><li><a href="#">Clickable link</a></li><li><a href="#">Clickable link</a></li><li class="disabled"><a href="#">Disabled link</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.nav.nav-pills
+	li: a(href='#') Clickable link
+	li: a(href='#') Clickable link
+	li.disabled: a(href='#') Disabled link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="nav nav-tabs"><li class="active"><a href="#">Home</a></li><li><a href="#">Help</a></li><li class="dropdown"><a data-toggle="dropdown" href="#" class="dropdown-toggle">Dropdown<span class="caret"></span><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated btn-link</a></li></ul></a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.nav.nav-tabs
+	li.active: a(href='#') Home
+	li: a(href='#') Help
+	li.dropdown: a.dropdown-toggle(data-toggle='dropdown', href='#')
+		| Dropdown
+		span.caret
+		ul.dropdown-menu(role='menu')
+			li: a(href='#') Action
+			li: a(href='#') Another action
+			li: a(href='#') Something else here
+			li.divider
+			li: a(href='#') Separated btn-link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="nav nav-pills"><li class="active"><a href="#">Home</a></li><li><a href="#">Help</a></li><li class="dropdown"><a data-toggle="dropdown" href="#" class="dropdown-toggle">Dropdown<span class="caret"></span><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated btn-link</a></li></ul></a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.nav.nav-pills
+	li.active: a(href='#') Home
+	li: a(href='#') Help
+	li.dropdown: a.dropdown-toggle(data-toggle='dropdown', href='#')
+		| Dropdown
+		span.caret
+		ul.dropdown-menu(role='menu')
+			li: a(href='#') Action
+			li: a(href='#') Another action
+			li: a(href='#') Something else here
+			li.divider
+			li: a(href='#') Separated btn-link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><nav role="navigation" class="navbar navbar-default"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Brand</a></div><div class="collapse navbar-collapse navbar-ex1-collapse"><ul class="nav navbar-nav"><li class="active"><a href="#">Link</a></li><li><a href="#">Link</a></li><li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<b class="caret"></b><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li><li class="divider"></li><li><a href="#">One more separated link</a></li></ul></a></li></ul><form role="search" class="navbar-form navbar-left"><div class="form-group"><input type="text" placeholder="Search" class="form-control"></div><button type="submit" class="btn btn-default">Submit</button></form><ul class="nav navbar-nav navbar-right"><li><a href="#">Link</a></li><li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<b class="caret"></b><ul role="menu" class="dropdown-menu"><li><a href="#">Action</a></li><li><a href="#">Another action</a></li><li><a href="#">Something else here</a></li><li class="divider"></li><li><a href="#">Separated link</a></li></ul></a></li></ul></div></nav></div><div class="example-code"><pre data-lang="jade"><code>nav.navbar.navbar-default(role='navigation')
+	.navbar-header
+		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
+			span.sr-only Toggle navigation
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		a.navbar-brand(href='#') Brand
+	.collapse.navbar-collapse.navbar-ex1-collapse
+		ul.nav.navbar-nav
+			li.active: a(href='#') Link
+			li: a(href='#') Link
+			li.dropdown: a.dropdown-toggle(href='#', data-toggle='dropdown')
+				| Dropdown
+				b.caret
+				ul.dropdown-menu(role='menu')
+					li: a(href='#') Action
+					li: a(href='#') Another action
+					li: a(href='#') Something else here
+					li.divider
+					li: a(href='#') Separated link
+					li.divider
+					li: a(href='#') One more separated link
+		form.navbar-form.navbar-left(role='search')
+			.form-group
+				input.form-control(type='text', placeholder='Search')
+			button.btn.btn-default(type='submit') Submit
+		ul.nav.navbar-nav.navbar-right
+			li: a(href='#') Link
+			li.dropdown: a.dropdown-toggle(href='#', data-toggle='dropdown')
+				| Dropdown
+				b.caret
+				ul.dropdown-menu(role='menu')
+					li: a(href='#') Action
+					li: a(href='#') Another action
+					li: a(href='#') Something else here
+					li.divider
+					li: a(href='#') Separated link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><nav role="navigation" class="navbar navbar-default"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-ex2-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Brand</a></div><div class="collapse navbar-collapse navbar-ex2-collapse"><button type="button" class="btn btn-default navbar-btn">Sign in</button></div></nav></div><div class="example-code"><pre data-lang="jade"><code>nav.navbar.navbar-default(role='navigation')
+	.navbar-header
+		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex2-collapse')
+			span.sr-only Toggle navigation
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		a.navbar-brand(href='#') Brand
+	.collapse.navbar-collapse.navbar-ex2-collapse
+		button.btn.btn-default.navbar-btn(type='button') Sign in</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><nav role="navigation" class="navbar navbar-default"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-ex3-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Brand</a></div><div class="collapse navbar-collapse navbar-ex3-collapse"><p class="navbar-text">Signed in as Mark Otto</p></div></nav></div><div class="example-code"><pre data-lang="jade"><code>nav.navbar.navbar-default(role='navigation')
+	.navbar-header
+		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex3-collapse')
+			span.sr-only Toggle navigation
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		a.navbar-brand(href='#') Brand
+	.collapse.navbar-collapse.navbar-ex3-collapse
+		p.navbar-text Signed in as Mark Otto</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><nav role="navigation" class="navbar navbar-default"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-ex4-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Brand</a></div><div class="collapse navbar-collapse navbar-ex4-collapse"><p class="navbar-text pull-right">Signed in as<a href="#" class="navbar-link"> Mark Otto</a></p></div></nav></div><div class="example-code"><pre data-lang="jade"><code>nav.navbar.navbar-default(role='navigation')
+	.navbar-header
+		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex4-collapse')
+			span.sr-only Toggle navigation
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		a.navbar-brand(href='#') Brand
+	.collapse.navbar-collapse.navbar-ex4-collapse
+		p.navbar-text.pull-right
+			| Signed in as
+			a.navbar-link(href='#')  Mark Otto</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><nav role="navigation" class="navbar navbar-default navbar-static-top"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-ex7-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Brand</a></div><div class="collapse navbar-collapse navbar-ex7-collapse"><ul class="nav navbar-nav"><li class="active"><a href="#">Home</a></li><li><a href="#">Link</a></li><li><a href="#">Link</a></li></ul></div></nav></div><div class="example-code"><pre data-lang="jade"><code>nav.navbar.navbar-default.navbar-static-top(role='navigation')
+	.navbar-header
+		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex7-collapse')
+			span.sr-only Toggle navigation
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		a.navbar-brand(href='#') Brand
+	.collapse.navbar-collapse.navbar-ex7-collapse
+		ul.nav.navbar-nav
+			li.active: a(href='#') Home
+			li: a(href='#') Link
+			li: a(href='#') Link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><nav role="navigation" class="navbar navbar-inverse"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-ex8-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Brand</a></div><div class="collapse navbar-collapse navbar-ex8-collapse"><ul class="nav navbar-nav"><li class="active"><a href="#">Home</a></li><li><a href="#">Link</a></li><li><a href="#">Link</a></li></ul></div></nav></div><div class="example-code"><pre data-lang="jade"><code>nav.navbar.navbar-inverse(role='navigation')
+	.navbar-header
+		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex8-collapse')
+			span.sr-only Toggle navigation
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		a.navbar-brand(href='#') Brand
+	.collapse.navbar-collapse.navbar-ex8-collapse
+		ul.nav.navbar-nav
+			li.active: a(href='#') Home
+			li: a(href='#') Link
+			li: a(href='#') Link</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ol class="breadcrumb"><li class="active">Home</li></ol><ol class="breadcrumb"><li><a href="#">Home</a></li><li class="active">Library</li></ol><ol class="breadcrumb"><li><a href="#">Home</a></li><li><a href="#">Library</a></li><li class="active">Data</li></ol></div><div class="example-code"><pre data-lang="jade"><code>ol.breadcrumb
+	li.active Home
+ol.breadcrumb
+	li: a(href='#') Home
+	li.active Library
+ol.breadcrumb
+	li: a(href='#') Home
+	li: a(href='#') Library
+	li.active Data</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="pagination"><li><a href="#">&laquo;</a></li><li><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">&raquo;</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.pagination
+	li: a(href='#') &laquo;
+	li: a(href='#') 1
+	li: a(href='#') 2
+	li: a(href='#') 3
+	li: a(href='#') 4
+	li: a(href='#') 5
+	li: a(href='#') &raquo;</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="pagination"><li class="disabled"><a href="#">&laquo;</a></li><li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">&raquo;</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.pagination
+	li.disabled: a(href='#') &laquo;
+	li.active: a(href='#')
+		| 1
+		span.sr-only (current)
+	li: a(href='#') 2
+	li: a(href='#') 3
+	li: a(href='#') 4
+	li: a(href='#') 5
+	li: a(href='#') &raquo;</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="pagination pagination-lg"><li class="disabled"><a href="#">&laquo;</a></li><li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">&raquo;</a></li></ul><br><ul class="pagination"><li class="disabled"><a href="#">&laquo;</a></li><li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">&raquo;</a></li></ul><br><ul class="pagination pagination-sm"><li class="disabled"><a href="#">&laquo;</a></li><li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li><li><a href="#">5</a></li><li><a href="#">&raquo;</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.pagination.pagination-lg
+	li.disabled: a(href='#') &laquo;
+	li.active: a(href='#')
+		| 1
+		span.sr-only (current)
+	li: a(href='#') 2
+	li: a(href='#') 3
+	li: a(href='#') 4
+	li: a(href='#') 5
+	li: a(href='#') &raquo;
+br
+ul.pagination
+	li.disabled: a(href='#') &laquo;
+	li.active: a(href='#')
+		| 1
+		span.sr-only (current)
+	li: a(href='#') 2
+	li: a(href='#') 3
+	li: a(href='#') 4
+	li: a(href='#') 5
+	li: a(href='#') &raquo;
+br
+ul.pagination.pagination-sm
+	li.disabled: a(href='#') &laquo;
+	li.active: a(href='#')
+		| 1
+		span.sr-only (current)
+	li: a(href='#') 2
+	li: a(href='#') 3
+	li: a(href='#') 4
+	li: a(href='#') 5
+	li: a(href='#') &raquo;</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="pager"><li><a href="#">Previous</a></li><li><a href="#">Next</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.pager
+	li: a(href='#') Previous
+	li: a(href='#') Next</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="pager"><li class="previous"><a href="#">← Older</a></li><li class="next"><a href="#">Newer →</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.pager
+	li.previous: a(href='#') ← Older
+	li.next: a(href='#') Newer →</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="pager"><li class="previous disabled"><a href="#">← Older</a></li><li class="next"><a href="#">Newer →</a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.pager
+	li.previous.disabled: a(href='#') ← Older
+	li.next: a(href='#') Newer →</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><h1>Example heading <span class="label label-default">New</span></h1><h2>Example heading <span class="label label-default">New</span></h2><h3>Example heading <span class="label label-default">New</span></h3><h4>Example heading <span class="label label-default">New</span></h4><h5>Example heading <span class="label label-default">New</span></h5><h6>Example heading <span class="label label-default">New</span></h6></div><div class="example-code"><pre data-lang="jade"><code>h1
+	| Example heading 
+	span.label.label-default New
+h2
+	| Example heading 
+	span.label.label-default New
+h3
+	| Example heading 
+	span.label.label-default New
+h4
+	| Example heading 
+	span.label.label-default New
+h5
+	| Example heading 
+	span.label.label-default New
+h6
+	| Example heading 
+	span.label.label-default New</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><span class="label label-default">Default</span><span class="label label-primary">Primary</span><span class="label label-success">Success</span><span class="label label-info">Info</span><span class="label label-warning">Warning</span><span class="label label-danger">Danger</span></div><div class="example-code"><pre data-lang="jade"><code>span.label.label-default Default
+span.label.label-primary Primary
+span.label.label-success Success
+span.label.label-info Info
+span.label.label-warning Warning
+span.label.label-danger Danger</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><a href="#">Inbox <span class="badge">42</span></a></div><div class="example-code"><pre data-lang="jade"><code>a(href='#')
+	| Inbox 
+	span.badge 42</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><ul class="nav nav-pills"><li class="active"><a href="#">Home<span class="badge">42</span></a></li><li><a href="#">Profile</a></li><li><a href="#">Messages<span class="badge">3</span></a></li></ul><br><ul class="nav nav-pills nav-stacked"><li class="active"><a href="#">Home<span class="badge pull-right">42</span></a></li><li><a href="#">Profile</a></li><li><a href="#">Messages<span class="badge pull-right">3</span></a></li></ul></div><div class="example-code"><pre data-lang="jade"><code>ul.nav.nav-pills
+	li.active: a(href='#')
+		| Home
+		span.badge 42
+	li: a(href='#') Profile
+	li: a(href='#')
+		| Messages
+		span.badge 3
+br
+ul.nav.nav-pills.nav-stacked
+	li.active: a(href='#')
+		| Home
+		span.badge.pull-right 42
+	li: a(href='#') Profile
+	li: a(href='#')
+		| Messages
+		span.badge.pull-right 3</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"><div class="jumbotron"><div class="container"><h1>Hello, world!</h1><p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p><p><a class="btn btn-primary btn-lg">Learn more</a></p></div></div></div><div class="example-code"><pre data-lang="jade"><code>.jumbotron
+	.container
+		h1 Hello, world!
+		p
+			| This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information
+		p
+			a.btn.btn-primary.btn-lg Learn more</code></pre></div></div><!--/example--><!--example--><div class="example"><div class="example-rendered"></div><div class="example-code"><pre data-lang="jade"><code></code></pre></div></div><!--/example--></div><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/holder/2.3.0/holder.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/addon/runmode/runmode-standalone.min.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/addon/runmode/colorize.min.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/mode/javascript/javascript.min.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/mode/css/css.min.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/mode/htmlmixed/htmlmixed.min.js"></script><script src="mode-jade.js"></script><script>CodeMirror.colorize();</script></body>
