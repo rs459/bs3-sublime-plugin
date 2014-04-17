@@ -1737,7 +1737,25 @@ block main
 					| and try submitting again.
 			.example-code.collapse.in
 				pre: code.code-jade
-					
+					|.alert.alert-success
+					|	strong Well done! 
+					|	| You successfully read 
+					|	a.alert-link(href='#') this important alert message
+					|	| .
+					|.alert.alert-info
+					|	strong Heads up! 
+					|	| This 
+					|	a.alert-link(href='#') alert needs your attention 
+					|	| , but it's not super important.
+					|.alert.alert-warning
+					|	strong Warning! 
+					|	| Best check yo self, you're 
+					|	a.alert-link(href='#') not looking too good
+					|	| .
+					|.alert.alert-danger
+					|	strong Oh snap! 
+					|	a.alert-link(href='#') Change a few things up 
+					|	| and try submitting again.
 		///example
 		//example
 		.example
@@ -1747,7 +1765,9 @@ block main
 						span.sr-only 60% Complete
 			.example-code.collapse.in
 				pre: code.code-jade
-					
+					|.progress
+					|	.progress-bar(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width: 60%;')
+					|		span.sr-only 60% Complete
 		///example
 		//example
 		.example
@@ -1766,7 +1786,18 @@ block main
 						span.sr-only 80% Complete (danger)
 			.example-code.collapse.in
 				pre: code.code-jade
-					
+					|.progress
+					|	.progress-bar.progress-bar-success(role='progressbar', aria-valuenow='40', aria-valuemin='0', aria-valuemax='100', style='width: 40%;')
+					|		span.sr-only 40% Complete (success)
+					|.progress
+					|	.progress-bar.progress-bar-info(role='progressbar', aria-valuenow='20', aria-valuemin='0', aria-valuemax='100', style='width: 20%;')
+					|		span.sr-only 20% Complete
+					|.progress
+					|	.progress-bar.progress-bar-warning(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width: 60%;')
+					|		span.sr-only 60% Complete (warning)
+					|.progress
+					|	.progress-bar.progress-bar-danger(role='progressbar', aria-valuenow='80', aria-valuemin='0', aria-valuemax='100', style='width: 80%;')
+					|		span.sr-only 80% Complete (danger)
 		///example
 		//example
 		.example
@@ -1785,7 +1816,18 @@ block main
 						span.sr-only 80% Complete (danger)
 			.example-code.collapse.in
 				pre: code.code-jade
-					
+					|.progress.progress-striped
+					|	.progress-bar.progress-bar-success(role='progressbar', aria-valuenow='40', aria-valuemin='0', aria-valuemax='100', style='width: 40%;')
+					|		span.sr-only 40% Complete (success)
+					|.progress.progress-striped
+					|	.progress-bar.progress-bar-info(role='progressbar', aria-valuenow='20', aria-valuemin='0', aria-valuemax='100', style='width: 20%;')
+					|		span.sr-only 20% Complete
+					|.progress.progress-striped
+					|	.progress-bar.progress-bar-warning(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width: 60%;')
+					|		span.sr-only 60% Complete (warning)
+					|.progress.progress-striped
+					|	.progress-bar.progress-bar-danger(role='progressbar', aria-valuenow='80', aria-valuemin='0', aria-valuemax='100', style='width: 80%;')
+					|		span.sr-only 80% Complete (danger)
 		///example
 		//example
 		.example
@@ -1795,7 +1837,9 @@ block main
 						span.sr-only 45% Complete
 			.example-code.collapse.in
 				pre: code.code-jade
-					
+					|.progress.progress-striped.active
+					|	.progress-bar(role='progressbar', aria-valuenow='45', aria-valuemin='0', aria-valuemax='100', style='width: 45%;')
+					|		span.sr-only 45% Complete
 		///example
 		//example
 		.example
@@ -1809,7 +1853,13 @@ block main
 						span.sr-only 10% Complete (danger)
 			.example-code.collapse.in
 				pre: code.code-jade
-					
+					|.progress
+					|	.progress-bar.progress-bar-success(style='width: 35%;')
+					|		span.sr-only 35% Complete (success)
+					|	.progress-bar.progress-bar-warning(style='width: 20%;')
+					|		span.sr-only 20% Complete (warning)
+					|	.progress-bar.progress-bar-danger(style='width: 10%;')
+					|		span.sr-only 10% Complete (danger)
 		///example
 		//example
 		.example
@@ -1834,7 +1884,24 @@ block main
 								| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
 			.example-code.collapse.in
 				pre: code.code-jade
-					
+					|.media
+					|	a.pull-left(href='#')
+					|		img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+					|	.media-body
+					|		h4.media-heading Media heading
+					|		| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					|.media
+					|	a.pull-left(href='#')
+					|		img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+					|	.media-body
+					|		h4.media-heading Media heading
+					|		| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					|		.media
+					|			a.pull-left(href='#')
+					|				img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+					|			.media-body
+					|				h4.media-heading Media heading
+					|				| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
 		///example
 		//example
 		.example
