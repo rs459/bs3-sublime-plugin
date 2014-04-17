@@ -12,20 +12,7 @@
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <!--link(rel="stylesheet", href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")-->
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/codemirror.min.css">
-  <style>
-    body {
-     padding: 120px 0;
-    }
-    
-    .example-rendered {
-     padding: 20px 0;
-    }
-    .cm-s-default .cm-qualifier {
-     color: #0AC43E;
-    }
-    .cm-s-default .cm-tag {
-     color: #BB6D92;
-    }
+  <style>body{padding:120px 0}.example-rendered{padding:20px 0}.cm-s-default .cm-qualifier{color:#0ac43e}.cm-s-default .cm-tag{color:#bb6d92}
   </style>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--if lt IE 9
@@ -34,9 +21,10 @@
   -->
 </head>
 <body>
-  <div class="container">
+  <header class="container main-header">
+    <button id="toggle-code" type="button" class="btn btn-info">Toggle code</button>
     <h1>Bootstrap 3 converted to jade (WIP)</h1>
-  </div>
+  </header>
   <div class="container">
     <!--example-->
     <div class="example">
@@ -48,8 +36,8 @@
           <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-justify"></span></button>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-group
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-group
 	button.btn.btn-default(type='button')
 		span.glyphicon.glyphicon-align-left
 	button.btn.btn-default(type='button')
@@ -71,8 +59,8 @@
           <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-star"></span>Star</button>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-toolbar
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-toolbar
 	button.btn.btn-default.btn-lg(type='button')
 		span.glyphicon.glyphicon-star
 		| Star
@@ -97,8 +85,8 @@
           <button type="button" class="btn btn-default">Right</button>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-group
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-group
 	button.btn.btn-default(type='button') Left
 	button.btn.btn-default(type='button') Middle
 	button.btn.btn-default(type='button') Right</code></pre>
@@ -125,8 +113,8 @@
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-toolbar
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-toolbar
 	.btn-group
 		button.btn.btn-default(type='button') 1
 		button.btn.btn-default(type='button') 2
@@ -152,8 +140,8 @@
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-toolbar
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-toolbar
 	.btn-group.btn-group-lg
 		button.btn.btn-default(type='button') Left
 		button.btn.btn-default(type='button') Middle
@@ -172,8 +160,8 @@
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-toolbar
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-toolbar
 	.btn-group
 		button.btn.btn-default(type='button') Left
 		button.btn.btn-default(type='button') Middle
@@ -192,8 +180,8 @@
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-toolbar
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-toolbar
 	.btn-group.btn-group-sm
 		button.btn.btn-default(type='button') Left
 		button.btn.btn-default(type='button') Middle
@@ -212,8 +200,8 @@
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-toolbar
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-toolbar
 	.btn-group.btn-group-xs
 		button.btn.btn-default(type='button') Left
 		button.btn.btn-default(type='button') Middle
@@ -236,8 +224,8 @@
           </ul>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-group
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-group
 	button.btn.btn-default(type='button') 1
 	button.btn.btn-default(type='button') 2
 .btn-group
@@ -288,8 +276,8 @@
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-group-vertical
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-group-vertical
 	button.btn.btn-default(type='button') Button
 	button.btn.btn-default(type='button') Button
 	.btn-group
@@ -330,8 +318,8 @@
       <div class="example-rendered">
         <div class="btn-group btn-group-justified"><a href="#" class="btn btn-default">Left</a><a href="#" class="btn btn-default">Middle</a><a href="#" class="btn btn-default">Right</a></div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-group.btn-group-justified
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-group.btn-group-justified
 	a.btn.btn-default(href='#') Left
 	a.btn.btn-default(href='#') Middle
 	a.btn.btn-default(href='#') Right</code></pre>
@@ -402,8 +390,8 @@
           </ul>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-group
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-group
 	button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
 		| Default
 		span.caret
@@ -536,8 +524,8 @@
           </ul>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-group
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-group
 	button.btn.btn-default(type='button') Default
 	button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
 		span.caret
@@ -640,8 +628,8 @@
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-toolbar
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-toolbar
 	.btn-group
 		button.btn.btn-default.btn-lg.dropdown-toggle(type='button', data-toggle='dropdown')
 			| Large button
@@ -707,8 +695,8 @@ br
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.btn-toolbar
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.btn-toolbar
 	.btn-group.dropup
 		button.btn.btn-default(type='button') Dropup
 		button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
@@ -747,8 +735,8 @@ br
           </div>
         </form>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>form(role='form')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">form(role='form')
 	.input-group
 		span.input-group-addon @
 		input.form-control(type='text', placeholder='Username')
@@ -779,8 +767,8 @@ br
           </div>
         </form>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>form(role='form')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">form(role='form')
 	.input-group.input-group-lg
 		span.input-group-addon @
 		input.form-control(type='text', placeholder='Username')
@@ -815,8 +803,8 @@ br
           </div>
         </form>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>form.bs-example.bs-example-form
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">form.bs-example.bs-example-form
 	.row
 		.col-lg-6
 			.input-group
@@ -851,8 +839,8 @@ br
           </div>
         </form>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>form
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">form
 	.row
 		.col-lg-6
 			.input-group
@@ -905,8 +893,8 @@ br
           </div>
         </form>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>form(role='form')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">form(role='form')
 	.row
 		.col-lg-6
 			.input-group
@@ -946,8 +934,8 @@ br
           <li><a href="#">Messages</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.nav.nav-tabs
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.nav.nav-tabs
 	li.active: a(href='#') Home
 	li: a(href='#') Profile
 	li: a(href='#') Messages</code></pre>
@@ -963,8 +951,8 @@ br
           <li><a href="#">Messages</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.nav.nav-pills
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.nav.nav-pills
 	li.active: a(href='#') Home
 	li: a(href='#') Profile
 	li: a(href='#') Messages</code></pre>
@@ -980,8 +968,8 @@ br
           <li><a href="#">Messages</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.nav.nav-tabs.nav-stacked
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.nav.nav-tabs.nav-stacked
 	li.active: a(href='#') Home
 	li: a(href='#') Profile
 	li: a(href='#') Messages</code></pre>
@@ -1002,8 +990,8 @@ br
           <li><a href="#">Messages</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.nav.nav-tabs.nav-justified
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.nav.nav-tabs.nav-justified
 	li.active: a(href='#') Home
 	li: a(href='#') Profile
 	li: a(href='#') Messages
@@ -1024,8 +1012,8 @@ ul.nav.nav-pills.nav-justified
           <li class="disabled"><a href="#">Disabled link</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.nav.nav-pills
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.nav.nav-pills
 	li: a(href='#') Clickable link
 	li: a(href='#') Clickable link
 	li.disabled: a(href='#') Disabled link</code></pre>
@@ -1048,8 +1036,8 @@ ul.nav.nav-pills.nav-justified
               </ul></a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.nav.nav-tabs
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.nav.nav-tabs
 	li.active: a(href='#') Home
 	li: a(href='#') Help
 	li.dropdown: a.dropdown-toggle(data-toggle='dropdown', href='#')
@@ -1080,8 +1068,8 @@ ul.nav.nav-pills.nav-justified
               </ul></a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.nav.nav-pills
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.nav.nav-pills
 	li.active: a(href='#') Home
 	li: a(href='#') Help
 	li.dropdown: a.dropdown-toggle(data-toggle='dropdown', href='#')
@@ -1138,8 +1126,8 @@ ul.nav.nav-pills.nav-justified
           </div>
         </nav>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>nav.navbar.navbar-default(role='navigation')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">nav.navbar.navbar-default(role='navigation')
 	.navbar-header
 		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
 			span.sr-only Toggle navigation
@@ -1192,8 +1180,8 @@ ul.nav.nav-pills.nav-justified
           </div>
         </nav>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>nav.navbar.navbar-default(role='navigation')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">nav.navbar.navbar-default(role='navigation')
 	.navbar-header
 		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex2-collapse')
 			span.sr-only Toggle navigation
@@ -1218,8 +1206,8 @@ ul.nav.nav-pills.nav-justified
           </div>
         </nav>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>nav.navbar.navbar-default(role='navigation')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">nav.navbar.navbar-default(role='navigation')
 	.navbar-header
 		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex3-collapse')
 			span.sr-only Toggle navigation
@@ -1244,8 +1232,8 @@ ul.nav.nav-pills.nav-justified
           </div>
         </nav>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>nav.navbar.navbar-default(role='navigation')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">nav.navbar.navbar-default(role='navigation')
 	.navbar-header
 		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex4-collapse')
 			span.sr-only Toggle navigation
@@ -1276,8 +1264,8 @@ ul.nav.nav-pills.nav-justified
           </div>
         </nav>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>nav.navbar.navbar-default.navbar-static-top(role='navigation')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">nav.navbar.navbar-default.navbar-static-top(role='navigation')
 	.navbar-header
 		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex7-collapse')
 			span.sr-only Toggle navigation
@@ -1309,8 +1297,8 @@ ul.nav.nav-pills.nav-justified
           </div>
         </nav>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>nav.navbar.navbar-inverse(role='navigation')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">nav.navbar.navbar-inverse(role='navigation')
 	.navbar-header
 		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex8-collapse')
 			span.sr-only Toggle navigation
@@ -1342,8 +1330,8 @@ ul.nav.nav-pills.nav-justified
           <li class="active">Data</li>
         </ol>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ol.breadcrumb
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ol.breadcrumb
 	li.active Home
 ol.breadcrumb
 	li: a(href='#') Home
@@ -1368,8 +1356,8 @@ ol.breadcrumb
           <li><a href="#">&raquo;</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.pagination
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.pagination
 	li: a(href='#') &laquo;
 	li: a(href='#') 1
 	li: a(href='#') 2
@@ -1393,8 +1381,8 @@ ol.breadcrumb
           <li><a href="#">&raquo;</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.pagination
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.pagination
 	li.disabled: a(href='#') &laquo;
 	li.active: a(href='#')
 		| 1
@@ -1438,8 +1426,8 @@ ol.breadcrumb
           <li><a href="#">&raquo;</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.pagination.pagination-lg
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.pagination.pagination-lg
 	li.disabled: a(href='#') &laquo;
 	li.active: a(href='#')
 		| 1
@@ -1482,8 +1470,8 @@ ul.pagination.pagination-sm
           <li><a href="#">Next</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.pager
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.pager
 	li: a(href='#') Previous
 	li: a(href='#') Next</code></pre>
       </div>
@@ -1497,8 +1485,8 @@ ul.pagination.pagination-sm
           <li class="next"><a href="#">Newer →</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.pager
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.pager
 	li.previous: a(href='#') ← Older
 	li.next: a(href='#') Newer →</code></pre>
       </div>
@@ -1512,8 +1500,8 @@ ul.pagination.pagination-sm
           <li class="next"><a href="#">Newer →</a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.pager
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.pager
 	li.previous.disabled: a(href='#') ← Older
 	li.next: a(href='#') Newer →</code></pre>
       </div>
@@ -1529,8 +1517,8 @@ ul.pagination.pagination-sm
         <h5>Example heading <span class="label label-default">New</span></h5>
         <h6>Example heading <span class="label label-default">New</span></h6>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>h1
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">h1
 	| Example heading 
 	span.label.label-default New
 h2
@@ -1554,8 +1542,8 @@ h6
     <!--example-->
     <div class="example">
       <div class="example-rendered"><span class="label label-default">Default</span><span class="label label-primary">Primary</span><span class="label label-success">Success</span><span class="label label-info">Info</span><span class="label label-warning">Warning</span><span class="label label-danger">Danger</span></div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>span.label.label-default Default
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">span.label.label-default Default
 span.label.label-primary Primary
 span.label.label-success Success
 span.label.label-info Info
@@ -1567,8 +1555,8 @@ span.label.label-danger Danger</code></pre>
     <!--example-->
     <div class="example">
       <div class="example-rendered"><a href="#">Inbox <span class="badge">42</span></a></div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>a(href='#')
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">a(href='#')
 	| Inbox 
 	span.badge 42</code></pre>
       </div>
@@ -1588,8 +1576,8 @@ span.label.label-danger Danger</code></pre>
           <li><a href="#">Messages<span class="badge pull-right">3</span></a></li>
         </ul>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>ul.nav.nav-pills
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">ul.nav.nav-pills
 	li.active: a(href='#')
 		| Home
 		span.badge 42
@@ -1620,8 +1608,8 @@ ul.nav.nav-pills.nav-stacked
           </div>
         </div>
       </div>
-      <div class="example-code">
-        <pre data-lang="jade"><code>.jumbotron
+      <div class="example-code collapse in">
+        <pre><code class="code-jade">.jumbotron
 	.container
 		h1 Hello, world!
 		p
@@ -1634,8 +1622,8 @@ ul.nav.nav-pills.nav-stacked
     <!--example-->
     <div class="example">
       <div class="example-rendered"></div>
-      <div class="example-code">
-        <pre data-lang="jade"><code></code></pre>
+      <div class="example-code collapse in">
+        <pre><code class="code-jade"></code></pre>
       </div>
     </div>
     <!--/example-->
@@ -1649,5 +1637,13 @@ ul.nav.nav-pills.nav-stacked
   <script src="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/mode/css/css.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/codemirror/4.0.3/mode/htmlmixed/htmlmixed.min.js"></script>
   <script src="mode-jade.min.js"></script>
-  <script>CodeMirror.colorize();</script>
+  <script>
+    jQuery(document).ready(function($) {
+     CodeMirror.colorize(document.getElementsByClassName("code-jade"), "jade")
+    });
+    
+    $('#toggle-code').on('click', function(e) {
+      $('.example-code').collapse('toggle');
+    });
+  </script>
 </body>

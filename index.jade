@@ -1,22 +1,23 @@
 extend layout-colorize
 
 append css
-	style.
-		body {
-			padding: 120px 0;
-		}
-
-		.example-rendered {
-			padding: 20px 0;
-		}
-		.cm-s-default .cm-qualifier {
-			color: #0AC43E;
-		}
-		.cm-s-default .cm-tag {
-			color: #BB6D92;
-		}
+	style
+		:less(compress=true)
+			body {
+				padding: 120px 0;
+			}
+			.example-rendered {
+				padding: 20px 0;
+			}
+			.cm-s-default .cm-qualifier {
+				color: #0AC43E;
+			}
+			.cm-s-default .cm-tag {
+				color: #BB6D92;
+			}
 block main
-	.container
+	header.container.main-header
+		button#toggle-code(type="button").btn.btn-info Toggle code
 		h1 Bootstrap 3 converted to jade (WIP)
 
 	.container
@@ -32,8 +33,8 @@ block main
 						span.glyphicon.glyphicon-align-right
 					button.btn.btn-default(type='button')
 						span.glyphicon.glyphicon-align-justify
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-group
 					|	button.btn.btn-default(type='button')
 					|		span.glyphicon.glyphicon-align-left
@@ -60,8 +61,8 @@ block main
 					button.btn.btn-default.btn-xs(type='button')
 						span.glyphicon.glyphicon-star
 						| Star
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-toolbar
 					|	button.btn.btn-default.btn-lg(type='button')
 					|		span.glyphicon.glyphicon-star
@@ -83,8 +84,8 @@ block main
 					button.btn.btn-default(type='button') Left
 					button.btn.btn-default(type='button') Middle
 					button.btn.btn-default(type='button') Right
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-group
 					|	button.btn.btn-default(type='button') Left
 					|	button.btn.btn-default(type='button') Middle
@@ -105,8 +106,8 @@ block main
 						button.btn.btn-default(type='button') 7
 					.btn-group
 						button.btn.btn-default(type='button') 8
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-toolbar
 					|	.btn-group
 					|		button.btn.btn-default(type='button') 1
@@ -128,8 +129,8 @@ block main
 						button.btn.btn-default(type='button') Left
 						button.btn.btn-default(type='button') Middle
 						button.btn.btn-default(type='button') Right
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-toolbar
 					|	.btn-group.btn-group-lg
 					|		button.btn.btn-default(type='button') Left
@@ -144,8 +145,8 @@ block main
 						button.btn.btn-default(type='button') Left
 						button.btn.btn-default(type='button') Middle
 						button.btn.btn-default(type='button') Right
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-toolbar
 					|	.btn-group
 					|		button.btn.btn-default(type='button') Left
@@ -160,8 +161,8 @@ block main
 						button.btn.btn-default(type='button') Left
 						button.btn.btn-default(type='button') Middle
 						button.btn.btn-default(type='button') Right
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-toolbar
 					|	.btn-group.btn-group-sm
 					|		button.btn.btn-default(type='button') Left
@@ -176,8 +177,8 @@ block main
 						button.btn.btn-default(type='button') Left
 						button.btn.btn-default(type='button') Middle
 						button.btn.btn-default(type='button') Right
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-toolbar
 					|	.btn-group.btn-group-xs
 					|		button.btn.btn-default(type='button') Left
@@ -197,8 +198,8 @@ block main
 					ul.dropdown-menu(role='menu', aria-labelledby='btnGroupDrop1')
 						li: a(href='#') Dropdown link
 						li: a(href='#') Dropdown link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-group
 					|	button.btn.btn-default(type='button') 1
 					|	button.btn.btn-default(type='button') 2
@@ -246,8 +247,8 @@ block main
 						ul.dropdown-menu(role='menu', aria-labelledby='btnGroupVerticalDrop4')
 							li: a(href='#') Dropdown link
 							li: a(href='#') Dropdown link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-group-vertical
 					|	button.btn.btn-default(type='button') Button
 					|	button.btn.btn-default(type='button') Button
@@ -289,8 +290,8 @@ block main
 					a.btn.btn-default(href='#') Left
 					a.btn.btn-default(href='#') Middle
 					a.btn.btn-default(href='#') Right
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-group.btn-group-justified
 					|	a.btn.btn-default(href='#') Left
 					|	a.btn.btn-default(href='#') Middle
@@ -364,8 +365,8 @@ block main
 						li: a(href='#') Something else here
 						li.divider
 						li: a(href='#') Separated link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-group
 					|	button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
 					|		| Default
@@ -495,8 +496,8 @@ block main
 						li: a(href='#') Something else here
 						li.divider
 						li: a(href='#') Separated link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-group
 					|	button.btn.btn-default(type='button') Default
 					|	button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
@@ -601,8 +602,8 @@ block main
 							li: a(href='#') Something else here
 							li.divider
 							li: a(href='#') Separated link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-toolbar
 					|	.btn-group
 					|		button.btn.btn-default.btn-lg.dropdown-toggle(type='button', data-toggle='dropdown')
@@ -664,8 +665,8 @@ block main
 							li: a(href='#') Something else here
 							li.divider
 							li: a(href='#') Separated link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.btn-toolbar
 					|	.btn-group.dropup
 					|		button.btn.btn-default(type='button') Dropup
@@ -705,8 +706,8 @@ block main
 						span.input-group-addon $
 						input.form-control(type='text')
 						span.input-group-addon .00
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|form(role='form')
 					|	.input-group
 					|		span.input-group-addon @
@@ -737,8 +738,8 @@ block main
 						span.input-group-addon @
 						input.form-control(type='text', placeholder='Username')
 
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|form(role='form')
 					|	.input-group.input-group-lg
 					|		span.input-group-addon @
@@ -767,8 +768,8 @@ block main
 								span.input-group-addon
 									input(type='radio')
 								input.form-control(type='text')
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|form.bs-example.bs-example-form
 					|	.row
 					|		.col-lg-6
@@ -797,8 +798,8 @@ block main
 								input.form-control(type='text')
 								span.input-group-btn
 									button.btn.btn-default(type='button') Go!
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|form
 					|	.row
 					|		.col-lg-6
@@ -843,8 +844,8 @@ block main
 										li: a(href='#') Something else here
 										li.divider
 										li: a(href='#') Separated link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|form(role='form')
 					|	.row
 					|		.col-lg-6
@@ -881,8 +882,8 @@ block main
 					li.active: a(href='#') Home
 					li: a(href='#') Profile
 					li: a(href='#') Messages
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.nav.nav-tabs
 					|	li.active: a(href='#') Home
 					|	li: a(href='#') Profile
@@ -895,8 +896,8 @@ block main
 					li.active: a(href='#') Home
 					li: a(href='#') Profile
 					li: a(href='#') Messages
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.nav.nav-pills
 					|	li.active: a(href='#') Home
 					|	li: a(href='#') Profile
@@ -909,8 +910,8 @@ block main
 					li.active: a(href='#') Home
 					li: a(href='#') Profile
 					li: a(href='#') Messages
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.nav.nav-tabs.nav-stacked
 					|	li.active: a(href='#') Home
 					|	li: a(href='#') Profile
@@ -928,8 +929,8 @@ block main
 					li.active: a(href='#') Home
 					li: a(href='#') Profile
 					li: a(href='#') Messages
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.nav.nav-tabs.nav-justified
 					|	li.active: a(href='#') Home
 					|	li: a(href='#') Profile
@@ -947,8 +948,8 @@ block main
 					li: a(href='#') Clickable link
 					li: a(href='#') Clickable link
 					li.disabled: a(href='#') Disabled link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.nav.nav-pills
 					|	li: a(href='#') Clickable link
 					|	li: a(href='#') Clickable link
@@ -969,8 +970,8 @@ block main
 							li: a(href='#') Something else here
 							li.divider
 							li: a(href='#') Separated btn-link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.nav.nav-tabs
 					|	li.active: a(href='#') Home
 					|	li: a(href='#') Help
@@ -999,8 +1000,8 @@ block main
 							li: a(href='#') Something else here
 							li.divider
 							li: a(href='#') Separated btn-link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.nav.nav-pills
 					|	li.active: a(href='#') Home
 					|	li: a(href='#') Help
@@ -1056,8 +1057,8 @@ block main
 									li: a(href='#') Something else here
 									li.divider
 									li: a(href='#') Separated link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|nav.navbar.navbar-default(role='navigation')
 					|	.navbar-header
 					|		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
@@ -1110,8 +1111,8 @@ block main
 						a.navbar-brand(href='#') Brand
 					.collapse.navbar-collapse.navbar-ex2-collapse
 						button.btn.btn-default.navbar-btn(type='button') Sign in
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|nav.navbar.navbar-default(role='navigation')
 					|	.navbar-header
 					|		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex2-collapse')
@@ -1136,8 +1137,8 @@ block main
 						a.navbar-brand(href='#') Brand
 					.collapse.navbar-collapse.navbar-ex3-collapse
 						p.navbar-text Signed in as Mark Otto
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|nav.navbar.navbar-default(role='navigation')
 					|	.navbar-header
 					|		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex3-collapse')
@@ -1164,8 +1165,8 @@ block main
 						p.navbar-text.pull-right
 							| Signed in as
 							a.navbar-link(href='#')  Mark Otto
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|nav.navbar.navbar-default(role='navigation')
 					|	.navbar-header
 					|		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex4-collapse')
@@ -1195,8 +1196,8 @@ block main
 							li.active: a(href='#') Home
 							li: a(href='#') Link
 							li: a(href='#') Link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|nav.navbar.navbar-default.navbar-static-top(role='navigation')
 					|	.navbar-header
 					|		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex7-collapse')
@@ -1227,8 +1228,8 @@ block main
 							li.active: a(href='#') Home
 							li: a(href='#') Link
 							li: a(href='#') Link
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|nav.navbar.navbar-inverse(role='navigation')
 					|	.navbar-header
 					|		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex8-collapse')
@@ -1255,8 +1256,8 @@ block main
 					li: a(href='#') Home
 					li: a(href='#') Library
 					li.active Data
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ol.breadcrumb
 					|	li.active Home
 					|ol.breadcrumb
@@ -1278,8 +1279,8 @@ block main
 					li: a(href='#') 4
 					li: a(href='#') 5
 					li: a(href='#') &raquo;
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.pagination
 					|	li: a(href='#') &laquo;
 					|	li: a(href='#') 1
@@ -1302,8 +1303,8 @@ block main
 					li: a(href='#') 4
 					li: a(href='#') 5
 					li: a(href='#') &raquo;
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.pagination
 					|	li.disabled: a(href='#') &laquo;
 					|	li.active: a(href='#')
@@ -1350,8 +1351,8 @@ block main
 					li: a(href='#') 4
 					li: a(href='#') 5
 					li: a(href='#') &raquo;
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.pagination.pagination-lg
 					|	li.disabled: a(href='#') &laquo;
 					|	li.active: a(href='#')
@@ -1391,8 +1392,8 @@ block main
 				ul.pager
 					li: a(href='#') Previous
 					li: a(href='#') Next
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.pager
 					|	li: a(href='#') Previous
 					|	li: a(href='#') Next
@@ -1403,8 +1404,8 @@ block main
 				ul.pager
 					li.previous: a(href='#') ← Older
 					li.next: a(href='#') Newer →
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.pager
 					|	li.previous: a(href='#') ← Older
 					|	li.next: a(href='#') Newer →
@@ -1415,8 +1416,8 @@ block main
 				ul.pager
 					li.previous.disabled: a(href='#') ← Older
 					li.next: a(href='#') Newer →
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.pager
 					|	li.previous.disabled: a(href='#') ← Older
 					|	li.next: a(href='#') Newer →
@@ -1442,8 +1443,8 @@ block main
 				h6
 					| Example heading 
 					span.label.label-default New
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|h1
 					|	| Example heading 
 					|	span.label.label-default New
@@ -1472,8 +1473,8 @@ block main
 				span.label.label-info Info
 				span.label.label-warning Warning
 				span.label.label-danger Danger
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|span.label.label-default Default
 					|span.label.label-primary Primary
 					|span.label.label-success Success
@@ -1487,8 +1488,8 @@ block main
 				a(href='#')
 					| Inbox 
 					span.badge 42
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|a(href='#')
 					|	| Inbox 
 					|	span.badge 42
@@ -1513,8 +1514,8 @@ block main
 					li: a(href='#')
 						| Messages
 						span.badge.pull-right 3
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|ul.nav.nav-pills
 					|	li.active: a(href='#')
 					|		| Home
@@ -1543,8 +1544,8 @@ block main
 							| This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
 						p
 							a.btn.btn-primary.btn-lg Learn more
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					|.jumbotron
 					|	.container
 					|		h1 Hello, world!
@@ -1557,11 +1558,17 @@ block main
 		.example
 			.example-rendered
 				
-			.example-code
-				pre(data-lang="jade"): code
+			.example-code.collapse.in
+				pre: code.code-jade
 					
 		///example
 
 append bottom-script
 	script.
-		CodeMirror.colorize();
+		jQuery(document).ready(function($) {
+			CodeMirror.colorize(document.getElementsByClassName("code-jade"), "jade")
+		});
+
+		$('#toggle-code').on('click', function(e) {
+				$('.example-code').collapse('toggle');
+			});
