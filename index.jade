@@ -1906,12 +1906,448 @@ block main
 		//example
 		.example
 			.example-rendered
-				
+				ul.media-list
+					li.media
+						a.pull-left(href='#')
+							img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+						.media-body
+							h4.media-heading Media heading
+							p
+							| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+							.media
+								a.pull-left(href='#')
+									img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+								.media-body
+									h4.media-heading Nested media heading
+									| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+									//
+										Nested media object
+									.media
+										a.pull-left(href='#')
+											img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+										.media-body
+											h4.media-heading Nested media heading
+											| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+											//
+												Nested media object
+							.media
+								a.pull-left(href='#')
+									img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+								.media-body
+									h4.media-heading Nested media heading
+									| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+					li.media
+						a.pull-right(href='#')
+							img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+						.media-body
+							h4.media-heading Media heading
+							| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
 			.example-code.collapse.in
 				pre: code.code-jade
-					
+					|li.media
+					|	a.pull-left(href='#')
+					|		img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+					|	.media-body
+					|		h4.media-heading Media heading
+					|		p
+					|		| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+					|		.media
+					|			a.pull-left(href='#')
+					|				img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+					|			.media-body
+					|				h4.media-heading Nested media heading
+					|				| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+					|		//
+					|			Nested media object
+					|		.media
+					|			a.pull-left(href='#')
+					|				img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+					|			.media-body
+					|				h4.media-heading Nested media heading
+					|				| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+					|		//
+					|			Nested media object
+					|		.media
+					|			a.pull-left(href='#')
+					|				img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+					|			.media-body
+					|				h4.media-heading Nested media heading
+					|				| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+					|li.media
+					|	a.pull-right(href='#')
+					|		img.media-object(data-src='holder.js/64x64', alt='Generic placeholder image', src='data:image/png;base64,')
+					|	.media-body
+					|		h4.media-heading Media heading
+					|		| Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
 		///example
-
+		//example
+		.example
+			.example-rendered
+				ul.list-group
+					li.list-group-item Cras justo odio
+					li.list-group-item Dapibus ac facilisis in
+					li.list-group-item Morbi leo risus
+					li.list-group-item Porta ac consectetur ac
+					li.list-group-item Vestibulum at eros
+			.example-code.collapse.in
+				pre: code.code-jade
+					|ul.list-group
+					|	li.list-group-item Cras justo odio
+					|	li.list-group-item Dapibus ac facilisis in
+					|	li.list-group-item Morbi leo risus
+					|	li.list-group-item Porta ac consectetur ac
+					|	li.list-group-item Vestibulum at eros
+		///example
+		//example
+		.example
+			.example-rendered
+				ul.list-group
+					li.list-group-item
+						span.badge 14
+						| Cras justo odio
+					li.list-group-item
+						span.badge 2
+						| Dapibus ac facilisis in
+					li.list-group-item
+						span.badge 1
+						| Morbi leo risus
+			.example-code.collapse.in
+				pre: code.code-jade
+					|ul.list-group
+					|	li.list-group-item
+					|		span.badge 14
+					|		| Cras justo odio
+					|	li.list-group-item
+					|		span.badge 2
+					|		| Dapibus ac facilisis in
+					|	li.list-group-item
+					|		span.badge 1
+					|		| Morbi leo risus
+		///example
+		//example
+		.example
+			.example-rendered
+				.list-group
+					a.list-group-item.active(href='#') Cras justo odio
+					a.list-group-item(href='#') Dapibus ac facilisis in
+					a.list-group-item(href='#') Morbi leo risus
+					a.list-group-item(href='#') Porta ac consectetur ac
+					a.list-group-item(href='#') Vestibulum at eros
+			.example-code.collapse.in
+				pre: code.code-jade
+					|a.list-group-item.active(href='#') Cras justo odio
+					|a.list-group-item(href='#') Dapibus ac facilisis in
+					|a.list-group-item(href='#') Morbi leo risus
+					|a.list-group-item(href='#') Porta ac consectetur ac
+					|a.list-group-item(href='#') Vestibulum at eros
+		///example
+		//example
+		.example
+			.example-rendered
+				list-group
+					a.list-group-item.active(href='#')
+						h4.list-group-item-heading List group item heading
+						p.list-group-item-text
+							| Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+					a.list-group-item(href='#')
+						h4.list-group-item-heading List group item heading
+						p.list-group-item-text
+							| Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+					a.list-group-item(href='#')
+						h4.list-group-item-heading List group item heading
+						p.list-group-item-text
+							| Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+			.example-code.collapse.in
+				pre: code.code-jade
+					|a.list-group-item.active(href='#')
+					|	h4.list-group-item-heading List group item heading
+					|	p.list-group-item-text
+					|		| Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+					|a.list-group-item(href='#')
+					|	h4.list-group-item-heading List group item heading
+					|	p.list-group-item-text
+					|		| Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+					|a.list-group-item(href='#')
+					|	h4.list-group-item-heading List group item heading
+					|	p.list-group-item-text
+					|		| Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+		///example
+		//example
+		.example
+			.example-rendered
+				.panel.panel-default
+					.panel-body
+						| Basic panel example
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.panel.panel-default
+					|	.panel-body
+					|		| Basic panel example
+		///example
+		//example
+		.example
+			.example-rendered
+				.panel.panel-default
+					.panel-heading Panel heading without title
+					.panel-body
+						| Panel content
+				.panel.panel-default
+					.panel-heading
+						h3.panel-title Panel title
+					.panel-body
+						| Panel content
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.panel.panel-default
+					|	.panel-heading Panel heading without title
+					|	.panel-body
+					|		| Panel content
+					|.panel.panel-default
+					|	.panel-heading
+					|		h3.panel-title Panel title
+					|	.panel-body
+					|		| Panel content
+		///example
+		//example
+		.example
+			.example-rendered
+				.panel.panel-default
+					.panel-body
+						| Panel content
+					.panel-footer Panel footer
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.panel.panel-default
+					|	.panel-body
+					|		| Panel content
+					|	.panel-footer Panel footer
+		///example
+		//example
+		.example
+			.example-rendered
+				.panel.panel-primary
+					.panel-heading
+						h3.panel-title Panel title
+					.panel-body
+						| Panel content
+				.panel.panel-success
+					.panel-heading
+						h3.panel-title Panel title
+					.panel-body
+						| Panel content
+				.panel.panel-info
+					.panel-heading
+						h3.panel-title Panel title
+					.panel-body
+						| Panel content
+				.panel.panel-warning
+					.panel-heading
+						h3.panel-title Panel title
+					.panel-body
+						| Panel content
+				.panel.panel-danger
+					.panel-heading
+						h3.panel-title Panel title
+					.panel-body
+						| Panel content
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.panel.panel-primary
+					|	.panel-heading
+					|		h3.panel-title Panel title
+					|	.panel-body
+					|		| Panel content
+					|.panel.panel-success
+					|	.panel-heading
+					|		h3.panel-title Panel title
+					|	.panel-body
+					|		| Panel content
+					|.panel.panel-info
+					|	.panel-heading
+					|		h3.panel-title Panel title
+					|	.panel-body
+					|		| Panel content
+					|.panel.panel-warning
+					|	.panel-heading
+					|		h3.panel-title Panel title
+					|	.panel-body
+					|		| Panel content
+					|.panel.panel-danger
+					|	.panel-heading
+					|		h3.panel-title Panel title
+					|	.panel-body
+					|		| Panel content
+		///example
+		//example
+		.example
+			.example-rendered
+				.panel.panel-default 
+					.panel-heading Panel heading
+					.panel-body
+						p
+							| Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+					table.table
+						head
+							tr
+								th #
+								th First Name
+								th Last Name
+								th Username
+						tbody
+							tr
+								td 1
+								td Mark
+								td Otto
+								td @mdo
+							tr
+								td 2
+								td Jacob
+								td Thornton
+								td @fat
+							tr
+								td 3
+								td Larry
+								td the Bird
+								td @twitter
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.panel.panel-default 
+					|	.panel-heading Panel heading
+					|	.panel-body
+					|		p
+					|			| Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+					|	table.table
+					|		head
+					|			tr
+					|				th #
+					|				th First Name
+					|				th Last Name
+					|				th Username
+					|		tbody
+					|			tr
+					|				td 1
+					|				td Mark
+					|				td Otto
+					|				td @mdo
+					|			tr
+					|				td 2
+					|				td Jacob
+					|				td Thornton
+					|				td @fat
+					|			tr
+					|				td 3
+					|				td Larry
+					|				td the Bird
+					|				td @twitter
+		///example
+		//example
+		.example
+			.example-rendered
+				.panel.panel-default
+					.panel-heading Panel heading
+					table.table
+						thead
+							tr
+								th #
+								th First Name
+								th Last Name
+								th Username
+						tbody
+							tr
+								td 1
+								td Mark
+								td Otto
+								td @mdo
+							tr
+								td 2
+								td Jacob
+								td Thornton
+								td @fat
+							tr
+								td 3
+								td Larry
+								td the Bird
+								td @twitter
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.panel.panel-default
+					|	.panel-heading Panel heading
+					|	table.table
+					|		thead
+					|			tr
+					|				th #
+					|				th First Name
+					|				th Last Name
+					|				th Username
+					|		tbody
+					|			tr
+					|				td 1
+					|				td Mark
+					|				td Otto
+					|				td @mdo
+					|			tr
+					|				td 2
+					|				td Jacob
+					|				td Thornton
+					|				td @fat
+					|			tr
+					|				td 3
+					|				td Larry
+					|				td the Bird
+					|				td @twitter
+		///example
+		//example
+		.example
+			.example-rendered
+				.panel.panel-default
+					.panel-heading Panel heading
+					.panel-body
+						p
+							| Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+					ul.list-group
+						li.list-group-item Cras justo odio
+						li.list-group-item Dapibus ac facilisis in
+						li.list-group-item Morbi leo risus
+						li.list-group-item Porta ac consectetur ac
+						li.list-group-item Vestibulum at eros
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.panel.panel-default
+					|	.panel-heading Panel heading
+					|	.panel-body
+					|		p
+					|			| Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+					|	ul.list-group
+					|		li.list-group-item Cras justo odio
+					|		li.list-group-item Dapibus ac facilisis in
+					|		li.list-group-item Morbi leo risus
+					|		li.list-group-item Porta ac consectetur ac
+					|		li.list-group-item Vestibulum at eros
+		///example
+		//example
+		.example
+			.example-rendered
+				.well Look, I'm in a well !
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.well Look, I'm in a well !
+		///example
+		//example
+		.example
+			.example-rendered
+				.well.well-lg Look, I'm in a large well !
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.well.well-lg Look, I'm in a large well !
+		///example
+		//example
+		.example
+			.example-rendered
+				.well.well-sm Look, I'm in a small well!
+			.example-code.collapse.in
+				pre: code.code-jade
+					|.well.well-sm Look, I'm in a small well!
+		///example
 append bottom-script
 	script.
 		jQuery(document).ready(function($) {
