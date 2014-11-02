@@ -20,7 +20,7 @@ nav(role="navigation").navbar.navbar-default
 			li: a(href="#") Link
 			li.dropdown
 				a(href="#", data-toggle="dropdown").dropdown-toggle Dropdown <b class="caret"></b>
-				ul.dropdown-menu
+				ul.dropdown-menu(role="menu")
 					li: a(href="#") Action
 					li: a(href="#") Another action
 					li: a(href="#") Something else here

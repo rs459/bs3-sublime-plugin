@@ -32,7 +32,7 @@ block main
               a.dropdown-toggle(href='#', data-toggle='dropdown')
                 | Dropdown
                 b.caret
-              ul.dropdown-menu
+              ul.dropdown-menu(role="menu")
                 li
                   a(href='#') Action
                 li
