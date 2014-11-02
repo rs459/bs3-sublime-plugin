@@ -271,14 +271,15 @@ block main
           p
             | Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
         //
-          /.blog-post 
-        ul.pager
-          li
-            a(href='#') Previous
-          li
-            a(href='#') Next
+          /.blog-post
+        nav
+          ul.pager
+            li
+              a(href='#') Previous
+            li
+              a(href='#') Next
       //
-        /.blog-main 
+        /.blog-main
       .col-sm-3.col-sm-offset-1.blog-sidebar
         .sidebar-module.sidebar-module-inset
           h4 About

@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
-ul.pager 
-	li: a(href="#") Previous
-	li: a(href="#") Next
+nav
+	ul.pager
+		li: a(href="#") Previous
+		li: a(href="#") Next
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-pager</tabTrigger>

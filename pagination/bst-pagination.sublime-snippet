@@ -1,13 +1,14 @@
 <snippet>
 	<content><![CDATA[
-ul.pagination
-	li: a(href="#") &laquo;
-	li: a(href="#") 1
-	li: a(href="#") 2
-	li: a(href="#") 3
-	li: a(href="#") 4
-	li: a(href="#") 5
-	li: a(href="#") &raquo;
+nav
+	ul.pagination
+		li: a(href="#") &laquo;
+		li: a(href="#") 1
+		li: a(href="#") 2
+		li: a(href="#") 3
+		li: a(href="#") 4
+		li: a(href="#") 5
+		li: a(href="#") &raquo;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bst-pagination</tabTrigger>
