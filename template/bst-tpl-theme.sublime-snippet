@@ -25,7 +25,7 @@ block main
     .navbar.navbar-inverse.navbar-fixed-top(role="navigation")
       .container
         .navbar-header
-          button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+          button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target=".navbar-collapse")
             span.icon-bar
             span.icon-bar
             span.icon-bar
@@ -122,7 +122,7 @@ block main
       .navbar.navbar-default
         .container
           .navbar-header
-            button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+            button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target=".navbar-collapse")
               span.icon-bar
               span.icon-bar
               span.icon-bar
@@ -163,7 +163,7 @@ block main
       .navbar.navbar-inverse
         .container
           .navbar-header
-            button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+            button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target=".navbar-collapse")
               span.icon-bar
               span.icon-bar
               span.icon-bar

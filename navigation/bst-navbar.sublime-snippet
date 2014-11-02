@@ -2,7 +2,7 @@
 	<content><![CDATA[
 nav(role="navigation").navbar.navbar-default
 	.navbar-header
-		button(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse").navbar-toggle
+		button(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse").navbar-toggle.collapsed
 			span.sr-only Toggle navigation
 			span.icon-bar
 			span.icon-bar

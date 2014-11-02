@@ -31,7 +31,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 - [Javascript Component](https://github.com/rs459/bootstrap3-jade-sublime-plugin#javascript-component)
 - [Labels](https://github.com/rs459/bootstrap3-jade-sublime-plugin#labels)
 - [List Groups](https://github.com/rs459/bootstrap3-jade-sublime-plugin#list-groups)
-- [Media Objects](https://github.com/rs459/bootstrap3-jade-sublime-plugin#media-objects)
+- [Media Objects](https://github.com/rs459/bootstrap3-jade-sublime-plugin#media)
 - [Navigation](https://github.com/rs459/bootstrap3-jade-sublime-plugin#navigation)
 - [Pagination](https://github.com/rs459/bootstrap3-jade-sublime-plugin#pagination)
 - [Panels](https://github.com/rs459/bootstrap3-jade-sublime-plugin#panels)
@@ -195,7 +195,7 @@ A sublime plugin complete with Twitter Bootstrap 3 snippets
 
 | Component                      | Snippet code                   |
 |------------------------------- | ------------------------------ |
-| Media Object                   | bst-media-object               |
+| Media Object                   | bst-media                      |
 
 ### Navigation
 
