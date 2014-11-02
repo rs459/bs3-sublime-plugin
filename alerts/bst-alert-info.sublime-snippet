@@ -1,7 +1,9 @@
 <snippet>
 	<content><![CDATA[
-.alert.alert-info
-	button.close(type='button', data-dismiss='alert', aria-hidden='true') &times;
+.alert.alert-info(role='alert')
+	button.close(type='button', data-dismiss='alert')
+		span(aria-hidden='true') &times;
+		span(sr-only) Close
 	strong ${1:Title!}
 	| ${2:Alert body ...}
 ]]></content>
