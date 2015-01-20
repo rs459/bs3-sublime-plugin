@@ -16,7 +16,7 @@ block main
           | Use 
           a(href='/template/sticky-footer-navbar') the sticky footer with a fixed navbar 
           | if need be, too.
-    #footer
+    footer.footer
       .container
         p.text-muted.credit
           | Example courtesy 

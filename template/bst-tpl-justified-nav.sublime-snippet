@@ -98,19 +98,20 @@ block main
 		.container
 			.masthead
 				h3.text-muted Project name
-				ul.nav.nav-justified
-					li.active
-						a(href='#') Home
-					li
-						a(href='#') Projects
-					li
-						a(href='#') Services
-					li
-						a(href='#') Downloads
-					li
-						a(href='#') About
-					li
-						a(href='#') Contact
+				nav
+					ul.nav.nav-justified
+						li.active
+							a(href='#') Home
+						li
+							a(href='#') Projects
+						li
+							a(href='#') Services
+						li
+							a(href='#') Downloads
+						li
+							a(href='#') About
+						li
+							a(href='#') Contact
 			// Jumbotron 
 			.jumbotron
 				h1 Marketing stuff!
@@ -139,7 +140,7 @@ block main
 					p
 						a.btn.btn-primary(href="#", role="button") View details »
 			// Site footer 
-			.footer
+			footer.footer
 				p &copy; Company 2013
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

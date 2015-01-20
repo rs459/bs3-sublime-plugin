@@ -123,7 +123,7 @@ append css
 		}
 block main
 		//Fixed navbar 
-		.navbar.navbar-default.navbar-fixed-top(role="navigation")
+		nav.navbar.navbar-default.navbar-fixed-top
 			.container
 				.navbar-header
 					button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.navbar-collapse')

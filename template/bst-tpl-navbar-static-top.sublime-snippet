@@ -14,7 +14,7 @@ append css
 
 block main
 		// Static navbar 
-		.navbar.navbar-default.navbar-static-top(role="navigation")
+		nav.navbar.navbar-default.navbar-static-top
 			.container
 				.navbar-header
 					button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.navbar-collapse')
@@ -31,9 +31,9 @@ block main
 						li
 							a(href='#contact') Contact
 						li.dropdown
-							a.dropdown-toggle(href='#', data-toggle='dropdown')
+							a.dropdown-toggle(href='#', data-toggle='dropdown', role="button", aria-expanded="false")
 								| Dropdown
-								b.caret
+								span.caret
 							ul.dropdown-menu(role="menu")
 								li
 									a(href='#') Action
@@ -51,7 +51,9 @@ block main
 						li
 							a(href='../navbar') Default
 						li.active
-							a(href='') Static top
+							a(href='') 
+								| Static top
+								span.-sr-only (current)
 						li
 							a(href='../navbar-fixed-top') Fixed top
 				//

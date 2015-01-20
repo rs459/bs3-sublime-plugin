@@ -329,7 +329,7 @@ block main
       /.row 
   //
     /.container 
-  .blog-footer
+  footer.blog-footer
     p
       | Blog template built for
       a(href='http://getbootstrap.com') Bootstrap
