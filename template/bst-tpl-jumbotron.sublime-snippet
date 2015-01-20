@@ -11,7 +11,7 @@ append css
 		}
 
 block main
-		.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+		nav.navbar.navbar-inverse.navbar-fixed-top
 			.container
 				.navbar-header
 					button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target=".navbar-collapse")
@@ -82,7 +82,7 @@ block main
 					p
 						a.btn.btn-default(href="#", role="button") View details »
 			hr
-			footer
+			footer.footer
 				p &copy; Company 2013
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -62,7 +62,7 @@ append bottom-script
     });
 
 block main
-    .navbar.navbar-fixed-top.navbar-inverse(role="navigation")
+    nav.navbar.navbar-fixed-top.navbar-inverse
       .container
         .navbar-header
           button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target=".navbar-collapse")
@@ -135,7 +135,7 @@ block main
             // /span
           // /row
         // /span
-        #sidebar.col-xs-6.col-sm-3.sidebar-offcanvas(role="navigation")
+        #sidebar.col-xs-6.col-sm-3.sidebar-offcanvas
           .well.sidebar-nav
             ul.nav
               li Sidebar

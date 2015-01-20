@@ -102,7 +102,7 @@ block append css
 		}
 
 block main
-	.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+	nav.navbar.navbar-inverse.navbar-fixed-top
 		.container-fluid
 			.navbar-header
 				button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.navbar-collapse')
@@ -128,7 +128,9 @@ block main
 			.col-sm-3.col-md-2.sidebar
 				ul.nav.nav-sidebar
 					li.active
-						a(href='#') Overview
+						a(href='#') 
+							| Overview
+							span.sr-only (current)
 					li
 						a(href='#') Reports
 					li

@@ -22,7 +22,7 @@ block append css
 block main
 
     // Fixed navbar
-    .navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+    nav.navbar.navbar-inverse.navbar-fixed-top
       .container
         .navbar-header
           button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target=".navbar-collapse")
@@ -39,9 +39,9 @@ block main
             li
               a(href="#contact") Contact
             li.dropdown
-              a.dropdown-toggle(href="#", data-toggle="dropdown")
+              a.dropdown-toggle(href="#", data-toggle="dropdown", role="button", aria-expanded="false")
                 | Dropdown
-                b.caret
+                span.caret
               ul.dropdown-menu(role="menu")
                 li
                   a(href="#") Action
@@ -104,9 +104,9 @@ block main
       .page-header
         h1 Dropdown menus
       .dropdown.theme-dropdown.clearfix
-        a#dropdownMenu1.sr-only.dropdown-toggle(href="#", role="button", data-toggle="dropdown")
+        a#dropdownMenu1.sr-only.dropdown-toggle(href="#", role="button", data-toggle="dropdown", aria-expanded="false")
           | Dropdown
-          b.caret
+          span.caret
         ul.dropdown-menu(role="menu", aria-labelledby="dropdownMenu1")
           li(role="presentation")
             a(role="menuitem", tabindex="-1", href="#") Action
@@ -136,9 +136,9 @@ block main
               li
                 a(href="#contact") Contact
               li.dropdown
-                a.dropdown-toggle(href="#", data-toggle="dropdown")
+                a.dropdown-toggle(href="#", data-toggle="dropdown", role="button", aria-expanded="false")
                   | Dropdown
-                  b.caret
+                  span.caret
                 ul.dropdown-menu(role="menu")
                   li
                     a(href="#") Action
@@ -177,9 +177,9 @@ block main
               li
                 a(href="#contact") Contact
               li.dropdown
-                a.dropdown-toggle(href="#", data-toggle="dropdown")
+                a.dropdown-toggle(href="#", data-toggle="dropdown", role="button", aria-expanded="false")
                   | Dropdown
-                  b.caret
+                  span.caret
                 ul.dropdown-menu(role="menu")
                   li
                     a(href="#") Action

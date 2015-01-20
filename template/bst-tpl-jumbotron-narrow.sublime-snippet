@@ -87,13 +87,14 @@ append css
 block main
 		.container
 			.header
-				ul.nav.nav-pills.pull-right(role="tablist")
-					li.active(role="presentation")
-						a(href='#') Home
-					li(role="presentation")
-						a(href='#') About
-					li(role="presentation")
-						a(href='#') Contact
+				nav
+					ul.nav.nav-pills.pull-right(role="tablist")
+						li.active(role="presentation")
+							a(href='#') Home
+						li(role="presentation")
+							a(href='#') About
+						li(role="presentation")
+							a(href='#') Contact
 				h3.text-muted Project name
 			.jumbotron
 				h1 Jumbotron heading
@@ -120,7 +121,7 @@ block main
 						| Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
 					h4 Subheading
 					p Maecenas sed diam eget risus varius blandit sit amet non magna.
-			.footer
+			footer.footer
 				p &copy; Company 2013
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

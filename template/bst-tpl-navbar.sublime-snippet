@@ -14,7 +14,7 @@ append css
 block main
 		.container
 			// Static navbar 
-			.navbar.navbar-default(role="navigation")
+			nav.navbar.navbar-default
 				.navbar-header
 					button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.navbar-collapse')
 						span.icon-bar
@@ -24,15 +24,15 @@ block main
 				.navbar-collapse.collapse
 					ul.nav.navbar-nav
 						li.active
-							a(href='#') Link
+							a(href='#') Home
 						li
-							a(href='#') Link
+							a(href='#') About
 						li
-							a(href='#') Link
+							a(href='#') Contact
 						li.dropdown
-							a.dropdown-toggle(href='#', data-toggle='dropdown')
+							a.dropdown-toggle(href='#', data-toggle='dropdown',role="button", aria-expanded="false")
 								| Dropdown 
-								b.caret
+								span.caret
 							ul.dropdown-menu(role="menu")
 								li
 									a(href='#') Action
@@ -48,7 +48,9 @@ block main
 									a(href='#') One more separated link
 					ul.nav.navbar-nav.navbar-right
 						li.active
-							a(href='') Default
+							a(href='./') 
+								| Default
+								span.sr-only (current)
 						li
 							a(href='../navbar-static-top') Static top
 						li
