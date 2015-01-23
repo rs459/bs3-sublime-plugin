@@ -28,7 +28,7 @@ block main
 						li
 							a(href="#contact") Contact
 						li.dropdown
-							a.dropdown-toggle((href="#"), data-toggle="dropdown")
+							a.dropdown-toggle(href="#", data-toggle="dropdown")
 								| Dropdown
 								b.caret
 							ul.dropdown-menu(role="menu")
