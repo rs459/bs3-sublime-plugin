@@ -10,9 +10,9 @@ Some snippet need to be upgraded for following improvment of bootstrap (a11y , s
 - add hidden label for "form" without label use "sr-only"
 - remove uneccessary (role="navigation") when it's main "nav" 
 - use "sr-only" for active "a (links)"
-- update "role" and "aria-expanded" for dropdown-toggle 
-- use "span" instead of "b"
+DONE - update "role" and "aria-expanded" for dropdown-toggle 
+DONE - use "span" instead of "b"
 - use "nav" for main "navigation" instead of "div"
-- use "footer" for main "footer" instead of "div"
-- remove "http:" inside "links" and "script" (let the browser choose the right protocol to use)
+DONE - use "footer" for main "footer" instead of "div"
+DONE - remove "http:" inside "links" and "script" (let the browser choose the right protocol to use)
 - template theme need to be updated for following change of official example (http://getbootstrap.com/examples/theme/)
