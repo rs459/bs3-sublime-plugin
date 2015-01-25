@@ -55,12 +55,13 @@ append css
 
 append bottom-script
 	script.
-		$(document).ready(function() {
-			$('[data-toggle=offcanvas]').click(function() {
-				$('.row-offcanvas').toggleClass('active');
+		\$(document).ready(function() {
+				\$('[data-toggle=offcanvas]').click(function() {
+					\$('.row-offcanvas').toggleClass('active');
+				});
 			});
-		});
 
+		
 block main
 		nav.navbar.navbar-fixed-top.navbar-inverse
 			.container
