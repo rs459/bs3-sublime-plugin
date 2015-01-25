@@ -53,7 +53,7 @@ block main
 						li.active
 							a(href='') 
 								| Static top
-								span.-sr-only (current)
+								span.sr-only (current)
 						li
 							a(href='../navbar-fixed-top') Fixed top
 				//
