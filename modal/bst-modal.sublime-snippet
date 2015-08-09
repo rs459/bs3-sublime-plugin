@@ -7,7 +7,7 @@ ${1://a.btn.btn-primary(data-toggle='modal', href='#${2:modal-id}') Trigger moda
 			.modal-header
 				button.close(type='button', data-dismiss='modal')
 					span(aria-hidden='true') &times;
-					span(sr-only) Close
+					span.sr-only Close
 				h4.modal-title Title
 			.modal-body
 				p body
