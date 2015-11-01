@@ -90,11 +90,11 @@ block main
 				nav
 					ul.nav.nav-pills.pull-right(role="tablist")
 						li.active(role="presentation")
-							a(href='#') Home
+							a(href="#") Home
 						li(role="presentation")
-							a(href='#') About
+							a(href="#") About
 						li(role="presentation")
-							a(href='#') Contact
+							a(href="#") Contact
 				h3.text-muted Project name
 			.jumbotron
 				h1 Jumbotron heading

@@ -36,15 +36,15 @@ block main
 				| Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.
 			p
 				| Use 
-				a(href='/template/sticky-footer-navbar') the sticky footer with a fixed navbar 
+				a(href="/template/sticky-footer-navbar") the sticky footer with a fixed navbar 
 				| if need be, too.
 	footer.footer
 		.container
 			p.text-muted.credit
 				| Example courtesy 
-				a(href='http://martinbean.co.uk') Martin Bean 
+				a(href="http://martinbean.co.uk") Martin Bean 
 				| and 
-				a(href='http://ryanfait.com/sticky-footer/') Ryan Fait
+				a(href="http://ryanfait.com/sticky-footer/") Ryan Fait
 				| .
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

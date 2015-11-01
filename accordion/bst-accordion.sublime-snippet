@@ -4,7 +4,7 @@
 		.panel.panel-default
 			.panel-heading
 				h4.panel-title
-					a.accordion-toggle.collapsed(data-toggle='collapse', data-parent='#${1:accordion-id}', href='#collapseOne')
+					a.accordion-toggle.collapsed(data-toggle="collapse", data-parent="#${1:accordion-id}", href="#collapseOne")
 						| Collapsible Group Item #1
 			#collapseOne.panel-collapse.collapse
 				.panel-body
@@ -12,7 +12,7 @@
 		.panel.panel-default
 			.panel-heading
 				h4.panel-title
-					a.accordion-toggle.collapsed(data-toggle='collapse', data-parent='#${1:accordion-id}', href='#collapseTwo')
+					a.accordion-toggle.collapsed(data-toggle="collapse", data-parent="#${1:accordion-id}", href="#collapseTwo")
 						| Collapsible Group Item #2
 			#collapseTwo.panel-collapse.in
 				.panel-body

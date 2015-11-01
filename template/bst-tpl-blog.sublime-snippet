@@ -171,11 +171,11 @@ block main
 	.blog-masthead
 		.container
 			nav.blog-nav
-				a.blog-nav-item.active(href='#') Home
-				a.blog-nav-item(href='#') New features
-				a.blog-nav-item(href='#') Press
-				a.blog-nav-item(href='#') New hires
-				a.blog-nav-item(href='#') About
+				a.blog-nav-item.active(href="#") Home
+				a.blog-nav-item(href="#") New features
+				a.blog-nav-item(href="#") Press
+				a.blog-nav-item(href="#") New hires
+				a.blog-nav-item(href="#") About
 	.container
 		.blog-header
 			h1.blog-title The Bootstrap Blog
@@ -186,13 +186,13 @@ block main
 					h2.blog-post-title Sample blog post
 					p.blog-post-meta
 						| January 1, 2014 by
-						a(href='#') Mark
+						a(href="#") Mark
 					p
 						| This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.
 					hr
 					p
 						| Cum sociis natoque penatibus et magnis
-						a(href='#') dis parturient montes
+						a(href="#") dis parturient montes
 						| , nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 					blockquote
 						p
@@ -235,10 +235,10 @@ block main
 					h2.blog-post-title Another blog post
 					p.blog-post-meta
 						| December 23, 2013 by
-						a(href='#') Jacob
+						a(href="#") Jacob
 					p
 						| Cum sociis natoque penatibus et magnis
-						a(href='#') dis parturient montes
+						a(href="#") dis parturient montes
 						| , nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 					blockquote
 						p
@@ -257,7 +257,7 @@ block main
 					h2.blog-post-title New feature
 					p.blog-post-meta
 						| December 14, 2013 by
-						a(href='#') Chris
+						a(href="#") Chris
 					p
 						| Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 					ul
@@ -275,9 +275,9 @@ block main
 				nav
 					ul.pager
 						li
-							a(href='#') Previous
+							a(href="#") Previous
 						li
-							a(href='#') Next
+							a(href="#") Next
 			//
 				/.blog-main
 			.col-sm-3.col-sm-offset-1.blog-sidebar
@@ -291,38 +291,38 @@ block main
 					h4 Archives
 					ol.list-unstyled
 						li
-							a(href='#') January 2014
+							a(href="#") January 2014
 						li
-							a(href='#') December 2013
+							a(href="#") December 2013
 						li
-							a(href='#') November 2013
+							a(href="#") November 2013
 						li
-							a(href='#') October 2013
+							a(href="#") October 2013
 						li
-							a(href='#') September 2013
+							a(href="#") September 2013
 						li
-							a(href='#') August 2013
+							a(href="#") August 2013
 						li
-							a(href='#') July 2013
+							a(href="#") July 2013
 						li
-							a(href='#') June 2013
+							a(href="#") June 2013
 						li
-							a(href='#') May 2013
+							a(href="#") May 2013
 						li
-							a(href='#') April 2013
+							a(href="#") April 2013
 						li
-							a(href='#') March 2013
+							a(href="#") March 2013
 						li
-							a(href='#') February 2013
+							a(href="#") February 2013
 				.sidebar-module
 					h4 Elsewhere
 					ol.list-unstyled
 						li
-							a(href='#') GitHub
+							a(href="#") GitHub
 						li
-							a(href='#') Twitter
+							a(href="#") Twitter
 						li
-							a(href='#') Facebook
+							a(href="#") Facebook
 			//
 				/.blog-sidebar 
 		//
@@ -332,12 +332,12 @@ block main
 	footer.blog-footer
 		p
 			| Blog template built for
-			a(href='http://getbootstrap.com') Bootstrap
+			a(href="http://getbootstrap.com") Bootstrap
 			| by
-			a(href='https://twitter.com/mdo') @mdo
+			a(href="https://twitter.com/mdo") @mdo
 			| .
 		p
-			a(href='#') Back to top
+			a(href="#") Back to top
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 		<tabTrigger>bst-tpl-blog</tabTrigger>

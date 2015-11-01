@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 ol.breadcrumb
-	li: a(href='${1:#}') ${2:Home}
+	li: a(href="${1:#}") ${2:Home}
 	li.active ${3:Current}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
