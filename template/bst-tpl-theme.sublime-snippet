@@ -100,7 +100,7 @@ block main
 				button.btn.btn-xs.btn-link(type="button") Link
 			.page-header
 				h1 Thumbnails
-			img.img-thumbnail(data-src='holder.js/200x200', src='data:image/png;base64,', alt='A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera')
+			img.img-thumbnail(data-src="holder.js/200x200", src="data:image/png;base64,", alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera")
 			.page-header
 				h1 Dropdown menus
 			.dropdown.theme-dropdown.clearfix
@@ -218,26 +218,26 @@ block main
 			.page-header
 				h1 Progress bars
 			.progress
-				.progress-bar(role="progressbar", aria-valuenow="60", aria-valuemin="0", aria-valuemax="100", style='width: 60%;')
+				.progress-bar(role="progressbar", aria-valuenow="60", aria-valuemin="0", aria-valuemax="100", style="width: 60%;")
 					span.sr-only 60% Complete
 			.progress
-				.progress-bar.progress-bar-success(role="progressbar", aria-valuenow="40", aria-valuemin="0", aria-valuemax="100", style='width: 40%;')
+				.progress-bar.progress-bar-success(role="progressbar", aria-valuenow="40", aria-valuemin="0", aria-valuemax="100", style="width: 40%;")
 					span.sr-only 40% Complete (success)
 			.progress
-				.progress-bar.progress-bar-info(role="progressbar", aria-valuenow="20", aria-valuemin="0", aria-valuemax="100", style='width: 20%;')
+				.progress-bar.progress-bar-info(role="progressbar", aria-valuenow="20", aria-valuemin="0", aria-valuemax="100", style="width: 20%;")
 					span.sr-only 20% Complete
 			.progress
-				.progress-bar.progress-bar-warning(role="progressbar", aria-valuenow="60", aria-valuemin="0", aria-valuemax="100", style='width: 60%;')
+				.progress-bar.progress-bar-warning(role="progressbar", aria-valuenow="60", aria-valuemin="0", aria-valuemax="100", style="width: 60%;")
 					span.sr-only 60% Complete (warning)
 			.progress
-				.progress-bar.progress-bar-danger(role="progressbar", aria-valuenow="80", aria-valuemin="0", aria-valuemax="100", style='width: 80%;')
+				.progress-bar.progress-bar-danger(role="progressbar", aria-valuenow="80", aria-valuemin="0", aria-valuemax="100", style="width: 80%;")
 					span.sr-only 80% Complete (danger)
 			.progress
-				.progress-bar.progress-bar-success(style='width: 35%;')
+				.progress-bar.progress-bar-success(style="width: 35%;")
 					span.sr-only 35% Complete (success)
-				.progress-bar.progress-bar-warning(style='width: 20%;')
+				.progress-bar.progress-bar-warning(style="width: 20%;")
 					span.sr-only 20% Complete (warning)
-				.progress-bar.progress-bar-danger(style='width: 10%;')
+				.progress-bar.progress-bar-danger(style="width: 10%;")
 					span.sr-only 10% Complete (danger)
 			.page-header
 				h1 List groups

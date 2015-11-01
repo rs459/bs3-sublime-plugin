@@ -240,7 +240,7 @@ block main
 		// Three columns of text below the carousel
 		.row
 			.col-lg-4
-				img.img-circle(data-src='holder.js/140x140', alt='Generic placeholder image')
+				img.img-circle(data-src="holder.js/140x140", alt="Generic placeholder image")
 				h2 Heading
 				p
 					| Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
@@ -249,7 +249,7 @@ block main
 			// /.col-lg-4
 
 			.col-lg-4
-				img.img-circle(data-src='holder.js/140x140', alt='Generic placeholder image')
+				img.img-circle(data-src="holder.js/140x140", alt="Generic placeholder image")
 				h2 Heading
 				p
 					| Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
@@ -258,7 +258,7 @@ block main
 			// /.col-lg-4
 
 			.col-lg-4
-				img.img-circle(data-src='holder.js/140x140', alt='Generic placeholder image')
+				img.img-circle(data-src="holder.js/140x140", alt="Generic placeholder image")
 				h2 Heading
 				p
 					| Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
@@ -277,11 +277,11 @@ block main
 				p.lead
 					| Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
 			.col-md-5
-				img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
+				img.featurette-image.img-responsive(data-src="holder.js/500x500/auto", alt="Generic placeholder image")
 		hr.featurette-divider
 		.row.featurette
 			.col-md-5
-				img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
+				img.featurette-image.img-responsive(data-src="holder.js/500x500/auto", alt="Generic placeholder image")
 			.col-md-7
 				h2.featurette-heading
 					| Oh yeah, it's that good.
@@ -297,7 +297,7 @@ block main
 				p.lead
 					| Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
 			.col-md-5
-				img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
+				img.featurette-image.img-responsive(data-src="holder.js/500x500/auto", alt="Generic placeholder image")
 		hr.featurette-divider
 		// /END THE FEATURETTES
 
