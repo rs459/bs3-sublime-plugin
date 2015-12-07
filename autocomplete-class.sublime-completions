@@ -1,6 +1,5 @@
 {
-	"scope": "source.jade",
-
+	"scope": "text.jade",
 	"completions":
 	[
 		"accordion-group",
