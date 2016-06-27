@@ -12,7 +12,7 @@ head
 	meta(name="viewport", content="width=device-width,initial-scale=1")
 	//- TODO : Place favicon.ico and apple-touch-icon.png in the root directory
 	block css
-		link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous")
+		link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
 	block top-script
 		//- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
 		<!--[if lt IE 9]>
@@ -24,12 +24,12 @@ body
 	block main
 
 	block bottom-script
-		script(src="https://code.jquery.com/jquery-1.11.3.min.js")
-		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous")
+		script(src="https://code.jquery.com/jquery-1.12.4.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js", integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", crossorigin="anonymous")
 		script(src="//cdnjs.cloudflare.com/ajax/libs/holder/2.3.0/holder.js")
 ]]></content>
 		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 		<tabTrigger>bst-h5bp-layout-jade</tabTrigger>
 		<!-- Optional: Set a scope to limit where the snippet will trigger -->
-			<scope>entity.name.tag.jade</scope>
+			<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
 </snippet>

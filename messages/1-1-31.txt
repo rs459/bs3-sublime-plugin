@@ -1,0 +1,8 @@
+- Update all snippets , now support completion for pug files.
+
+- Update to bootstrap 3.3.6 and jquery 1.12.4
+
+          ---------------------------
+
+I don't use bootstrap anymore, if you have any suggestion please create an issue or make a pull request with your proposition.
+
